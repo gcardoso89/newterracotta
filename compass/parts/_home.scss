@@ -1,5 +1,5 @@
 
-.hp-art{
+.hp-art {
 	position: relative;
 	min-height: 635px;
 
@@ -7,17 +7,17 @@
 		margin: 0;
 		position: absolute;
 		z-index: 1;
-		top:0;
-		left:50%;
-		@include translate(-50%,0);
+		top: 0;
+		left: 50%;
+		@include translate(-50%, 0);
 		img {
 			display: block;
 		}
 
-		@media all and (min-width: 1920px){
+		@media all and (min-width: 1920px) {
 
 			position: static;
-			@include translate(0,0);
+			@include translate(0, 0);
 
 			img {
 				width: 100%;
@@ -28,10 +28,10 @@
 
 	}
 
-	.cont{
+	.cont {
 		position: relative;
 		z-index: 2;
-		@media all and (min-width: 1920px){
+		@media all and (min-width: 1920px) {
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -41,23 +41,23 @@
 
 	h1 {
 		margin: 0;
-		padding-top:1.89em;
+		padding-top: 1.89em;
 		font-size: 4.125em;
-		color:#fff;
+		color: #fff;
 		text-transform: uppercase;
 	}
 
 	h2 {
 		margin: 0;
-		font-size:2.9375em;
-		color:#fff;
+		font-size: 2.9375em;
+		color: #fff;
 		font-weight: normal;
 		text-transform: lowercase;
 		padding-bottom: 0.60em;
 	}
 
 	a {
-		font-size:2.25em;
+		font-size: 2.25em;
 		color: #fff;
 		padding: 0.33em;
 		border: 4px solid #ffe71d;
@@ -65,4 +65,112 @@
 		display: inline-block;
 	}
 
+}
+
+.hp-sec {
+	padding: 40px 0 0;
+
+	h2 {
+		font-size: 1.875em;
+		font-weight: bold;
+		margin: 0 0 45px 0;
+		text-align: center;
+	}
+
+}
+
+.hp-why-list {
+	@extend .ul-style-none;
+	@extend .clearfix;
+
+	font-size: 1.25em;
+
+	> li {
+		float: left;
+		width: 33.333%;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 0 3%;
+		text-align: center;
+		i {
+			font-size:1.3em;
+			display: block;
+			padding-bottom: 10px;
+		}
+	}
+
+	h3 {
+		margin: 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 1.4;
+		font-size: 1.0em;
+	}
+
+	em {
+		font-style: normal;
+	}
+
+}
+
+.hp-sec-art {
+
+	text-align: center;
+	position: relative;
+	margin-bottom:5%;
+
+	&:hover{
+
+		> div{
+			padding: 15px;
+			border: 5px solid #ffe71d;
+			margin: -20px;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			&:hover{
+				display: none;
+			}
+		}
+
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		display: block;
+	}
+
+	figure {
+		margin: 0;
+		a {
+			padding-bottom: 20px;
+		}
+		img {
+			display: block;
+			max-width: 100%;
+		}
+	}
+
+	font-size: 1.25em;
+
+	h3 {
+		margin: 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		line-height: 1.4;
+		font-size: 1.0em;
+		a {
+			padding-bottom: 5px;
+		}
+	}
+
+	width: 31.2%;
+	float: left;
+	margin-left:3.2%;
+	&:first-child {
+		margin-left: 0%;
+	}
 }

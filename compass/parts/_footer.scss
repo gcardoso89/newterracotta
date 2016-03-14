@@ -34,6 +34,11 @@ footer {
 				padding-bottom: 30px;
 				a {
 					display:block;
+					i {
+						display: inline-block;
+						margin-left: 10px;
+						vertical-align: middle;
+					}
 				}
 			}
 		}
@@ -85,6 +90,15 @@ footer {
 	.social {
 		float: left;
 		width: 25%;
+		ul {
+			li {
+				line-height: 1.4;
+				i {
+					display: inline-block;
+					margin-right: 10px;
+				}
+			}
+		}
 	}
 
 	address, em{
