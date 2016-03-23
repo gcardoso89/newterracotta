@@ -8,23 +8,33 @@
 	<meta name="robots" content="noindex">
 
 	<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
-	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="js/dev/Menu.js"></script>
+	<script type="text/javascript" src="js/dev/ResponsiveMenu.js"></script>
 	<script type="text/javascript">
 
 		$( function() {
 
-			var menu = new Menu( {
+			var menu = new NewTerracotta.Menu( {
 				content: 'header',
 				navigation: 'nav',
 				items: '.first-level > li',
 				sub_menu: '.sec-level'
 			} );
 
-			new Menu( {
+			new NewTerracotta.Menu( {
 				content: 'header',
 				navigation: 'aside',
 				items: '.lang',
 				sub_menu: '> ul'
+			} );
+
+			new NewTerracotta.ResponsiveMenu( {
+
+				content: 'header',
+				button: '.bt-menu',
+				menu: '.menu-cont',
+				close: '.menu-cont .ic-close'
+
 			} );
 
 		} );
@@ -42,57 +52,64 @@
 			<img src="images/New-Terracotta-Portuguese-Handmade_logo.svg" alt="New Terracotta - Logo">
 		</div>
 
-		<nav class="menu">
-			<ul class="first-level">
-				<li><a href="#">Colours</a>
-					<ul class="sec-level">
-						<li><a href="#">Colour Palettes</a></li>
-						<li><a href="#">Colour Moods</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Tiles</a>
-					<ul class="sec-level">
-						<li><a href="#">Field Tiles</a></li>
-						<li><a href="#">Mouldings</a></li>
-						<li><a href="#">Portuguese Heritage</a></li>
-						<li><a href="#">New Modern</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Atelier</a>
-					<ul class="sec-level">
-						<li><a href="#">Historic Restorations</a></li>
-						<li><a href="#">Bespoke Projects</a></li>
-						<li><a href="#">Pottery</a></li>
-						<li><a href="#">Portuguese Tiles</a></li>
-					</ul>
-				</li>
-				<li><a href="#">The Factory</a></li>
-				<li class="special"><a href="#">Mother Studio</a></li>
-				<li><a href="#">Contacts & Support</a>
-					<ul class="sec-level">
-						<li><a href="#">How to Buy</a></li>
-						<li><a href="#">Contact Us</a></li>
-						<li><a href="#">Delivery & Returns</a></li>
-						<li><a href="#">Showrooms & Retailers</a></li>
-						<li><a href="#">Technical Support</a></li>
-						<li><a href="#">FAQs</a></li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-
-		<aside>
-			<div class="lang">
-				<span>EN</span>
-				<ul>
-					<li><a href="#">EN</a></li>
-					<li><a href="#">PT</a></li>
-					<li><a href="#">DE</a></li>
-					<li><a href="#">FR</a></li>
+		<div class="menu-cont">
+			<nav class="menu">
+				<ul class="first-level">
+					<li><a href="#">Colours</a>
+						<ul class="sec-level">
+							<li><a href="#">Colour Palettes</a></li>
+							<li><a href="#">Colour Moods</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Tiles</a>
+						<ul class="sec-level">
+							<li><a href="#">Field Tiles</a></li>
+							<li><a href="#">Mouldings</a></li>
+							<li><a href="#">Portuguese Heritage</a></li>
+							<li><a href="#">New Modern</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Atelier</a>
+						<ul class="sec-level">
+							<li><a href="#">Historic Restorations</a></li>
+							<li><a href="#">Bespoke Projects</a></li>
+							<li><a href="#">Pottery</a></li>
+							<li><a href="#">Portuguese Tiles</a></li>
+						</ul>
+					</li>
+					<li><a href="#">The Factory</a></li>
+					<li class="special"><a href="#">Mother Studio</a></li>
+					<li><a href="#">Contacts & Support</a>
+						<ul class="sec-level">
+							<li><a href="#">How to Buy</a></li>
+							<li><a href="#">Contact Us</a></li>
+							<li><a href="#">Delivery & Returns</a></li>
+							<li><a href="#">Showrooms & Retailers</a></li>
+							<li><a href="#">Technical Support</a></li>
+							<li><a href="#">FAQs</a></li>
+						</ul>
+					</li>
 				</ul>
-			</div>
-		</aside>
+			</nav>
+
+			<aside>
+				<div class="lang">
+					<span>EN</span>
+					<ul>
+						<li><a href="#">EN</a></li>
+						<li><a href="#">PT</a></li>
+						<li><a href="#">DE</a></li>
+						<li><a href="#">FR</a></li>
+					</ul>
+				</div>
+			</aside>
+
+			<span class="ic-close"></span>
+
+		</div>
+
+		<span class="bt-menu ic-menu"></span>
 
 	</div>
 
