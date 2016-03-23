@@ -6,6 +6,22 @@ footer {
 	color: #fff;
 	line-height: 1.3;
 
+	@media all and (max-width: 1024px){
+		font-size:1em;
+	}
+
+	@media all and (max-width: 900px){
+		font-size: 1.125em;
+	}
+
+	@media all and (max-width: 768px){
+		font-size: 1em;
+		.wrap {
+			padding-right:20px;
+			padding-left:20px;
+		}
+	}
+
 	.ft-main-tit {
 		margin: 0;
 		font-size: 1.111em;
@@ -47,6 +63,13 @@ footer {
 			min-height: 7.1875em;
 		}
 
+		@media all and (max-width: 900px){
+			width:80%;
+		}
+		@media all and (max-width: 768px){
+			width:75%;
+		}
+
 	}
 
 	aside{
@@ -56,11 +79,20 @@ footer {
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
 		padding-left:30px;
+		@media all and (max-width: 900px){
+			width:20%;
+		}
+		@media all and (max-width: 768px){
+			width:25%;
+		}
 	}
 
 	.address {
 		float:left;
 		width:75%;
+		@media all and (max-width: 900px){
+			display: none;
+		}
 	}
 
 	.ft-bot{
@@ -98,6 +130,9 @@ footer {
 					margin-right: 10px;
 				}
 			}
+		}
+		@media all and (max-width: 900px){
+			width:100%;
 		}
 	}
 

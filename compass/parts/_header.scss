@@ -4,12 +4,17 @@ header {
 	z-index: 2;
 	position: relative;
 	padding-top: 40px;
-	@include box-shadow(0px 1px 3px rgba(0,0,0,0.4));
+	@include box-shadow(0px 1px 3px rgba(0, 0, 0, 0.4));
+
+	@media all and (max-width: 1024px) {
+		padding-top: 30px;
+		padding-bottom: 25px;
+	}
 
 	.logo {
 
 		width: 466px;
-		margin:0 auto;
+		margin: 0 auto;
 
 		img {
 			max-width: 100%;
@@ -20,15 +25,66 @@ header {
 
 		}
 
+		@media all and (max-width: 600px) {
+			margin: 0;
+			width: 80%;
+		}
+
 	}
 
 	nav > ul > li > a:hover + .sec-level, nav > ul > li:hover .sec-level {
 		height: auto
 	}
 
+	.menu-cont {
+
+		@include transition(right 1s ease-out);
+		right: -320px;
+
+		@media all and (max-width: 1024px) {
+			position: absolute;
+			top: -30px;
+			width: 320px;
+			background: #000;
+			color: #fff;
+		}
+
+		&.opened {
+			right: 0;
+		}
+
+		z-index: 2;
+
+		.ic-close{
+			position: absolute;
+			top: 7px;
+			right: 10px;
+			font-size: 1.2em;
+			display: none;
+			@media all and (max-width: 1024px){
+				display: inline-block;
+			}
+		}
+
+	}
+
+	.bt-menu{
+
+		position: absolute;
+		right: 30px;
+		top: 0;
+		font-size:2em;
+		cursor: pointer;
+		z-index: 1;
+		@media all and (min-width: 1025px){
+			display: none !important;
+		}
+
+	}
+
 	.menu {
 
-		padding-top:40px;
+		padding-top: 40px;
 
 		.first-level {
 
@@ -42,24 +98,33 @@ header {
 
 				> a {
 
-					font-size:1.525em;
+					font-size: 1.525em;
 					font-weight: bold;
 
-					color:inherit;
+					color: inherit;
 					display: inline-block;
 					line-height: 1.4;
 					text-decoration: none;
 
-					padding:0.2em 0.6em 0.35em;
+					padding: 0.2em 0.6em 0.35em;
 
 					@media all and (max-width: 1200px) {
 						font-size: 1.3em;
 					}
 
+					@media all and (max-width: 1024px) {
+						font-size: 1.25em;
+						text-align: left;
+						font-weight: bold;
+						color: #939598;
+						padding: 0.5em 1em;
+						display: block;
+						border-bottom: 1px solid #555;
+					}
 
 				}
 
-				&:hover{
+				&:hover {
 
 					> a {
 						color: #939598;
@@ -69,16 +134,30 @@ header {
 
 				&.special {
 
-					> a{
+					> a {
 
-						color:#bd943b;
-						border:3px solid #bd943b;
-						padding:0.2em 0.35em;
+						color: #bd943b;
+						border: 3px solid #bd943b;
+						padding: 0.2em 0.35em;
+
+						@media all and (max-width: 1024px) {
+							padding: 0.5em 1em;
+							border: none;
+							border-bottom: 1px solid #555;
+						}
 
 					}
-
 				}
 
+				@media all and (max-width: 1024px) {
+					display: block;
+				}
+
+			}
+
+			@media all and (max-width: 1024px) {
+				text-align: left;
+				border-top: 1px solid #555;
 			}
 
 		}
@@ -86,28 +165,26 @@ header {
 		.sec-level {
 
 			@extend .ul-style-none;
-			@include transform( translate(-50%, 100%) );
+			@include transform(translate(-50%, 100%));
 
 			position: absolute;
-			left:50%;
+			left: 50%;
 			display: none;
 
-			bottom:0;
+			bottom: 0;
 			width: 100%;
-			padding:1.1em;
+			padding: 1.1em;
 			background: #000000;
-			-webkit-box-sizing: border-box;
-			-moz-box-sizing: border-box;
-			box-sizing: border-box;
+			@include box-sizing(border-box);
 			min-width: 180px;
 
 			> li {
 
 				> a {
 
-					font-size:1.25em;
-					color:#fff;
-					padding:0.3em 0;
+					font-size: 1.25em;
+					color: #fff;
+					padding: 0.3em 0;
 					text-decoration: none;
 					display: inline-block;
 
@@ -115,8 +192,24 @@ header {
 						font-size: 1.0em;
 					}
 
+					@media all and (max-width: 1024px) {
+						font-size: 1em;
+					}
+
 				}
 
+			}
+
+			@media all and (max-width: 1024px) {
+				@include transform(none);
+				position: static;
+				left: auto;
+				display: block;
+				bottom: auto;
+				width: auto;
+				border-bottom: 1px solid #555;
+				padding: 0.5em 1em;
+				font-size: 1.25em;
 			}
 
 		}
@@ -129,6 +222,10 @@ header {
 		right: 40px;
 		top: 0;
 
+		@media all and (max-width: 1024px) {
+			right:auto;
+		}
+
 		.lang {
 
 			position: relative;
@@ -136,17 +233,20 @@ header {
 			text-align: center;
 
 			> span {
-				font-size:1.525em;
+				font-size: 1.525em;
 				font-weight: bold;
 				cursor: pointer;
 				@media all and (max-width: 1200px) {
 					font-size: 1.3em;
 				}
+				@media all and (max-width: 1024px) {
+					display: none;
+				}
 
 			}
 
-			&:hover{
-				>span{
+			&:hover {
+				> span {
 					color: #939598;
 				}
 			}
@@ -154,36 +254,73 @@ header {
 			> ul {
 				position: absolute;
 				@extend .ul-style-none;
-				@include transform( translate(-50%, 100%) );
-				left:50%;
+				@include transform(translate(-50%, 100%));
+				left: 50%;
 				display: none;
-				bottom:0;
+				bottom: 0;
 				width: 100%;
-				padding:0.75em;
+				padding: 0.75em;
 				background: #000000;
-				-webkit-box-sizing: border-box;
-				-moz-box-sizing: border-box;
-				box-sizing: border-box;
+				@include box-sizing(border-box);
 				min-width: 70px;
 
 				> li {
 
 					a {
-						color:#fff;
+						color: #fff;
 						text-decoration: none;
 						display: inline-block;
-						padding:0.2em 0;
+						padding: 0.2em 0;
+
+						@media all and (max-width: 1024px) {
+							font-size: 1em;
+							line-height: 40px;
+							padding: 0;
+							font-weight: bold;
+						}
+
+					}
+
+					@media all and (max-width: 1024px) {
+						display: inline-block;
+						margin-left: 15px;
+						&:first-child{
+							margin-left:0;
+						}
+
+						&.sel{
+							a {
+								color:#939598;
+							}
+						}
+
 					}
 
 				}
 
+				@media all and (max-width: 1024px) {
+					@include transform(none);
+					left: auto;
+					display: block;
+					position: static;
+					bottom: auto;
+					min-width: auto;
+					width: auto;
+					padding:0 1.1em;
+				}
+
+			}
+
+			@media all and (max-width: 1024px) {
+				font-size: 1.25em;
+				text-align: left;
 			}
 
 		}
 
 	}
 
-	.wrap{
+	.wrap {
 		position: relative;
 	}
 
