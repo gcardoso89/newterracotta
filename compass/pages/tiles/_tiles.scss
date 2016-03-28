@@ -1,0 +1,123 @@
+@mixin prodImgHeight($className, $height){
+	.#{$className} {
+		.prod-img-cont{
+			height: ($height)+px;
+		}
+	}
+}
+
+.prod-list{
+
+	padding-bottom: 40px;
+	margin-bottom: 0;
+
+	.prod-img-cont{
+		display: table-cell;
+		vertical-align: bottom;
+		height: 200px;
+		@media all and (max-width: 600px){
+			height: auto !important;
+		}
+	}
+
+	.prod-more{
+		display: inline-block;
+		position: relative;
+
+		font-family: 'newterracotta-icons' !important;
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		@extend .ic-cubes;
+
+		&:before{
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			right:0;
+			bottom: -25px;
+			cursor: pointer;
+		}
+
+	}
+
+	@include prodImgHeight('big',270);
+	@include prodImgHeight('medium',240);
+	@include prodImgHeight('huge',345);
+
+	figure {
+		display: table;
+		table-layout: fixed;
+		font-size: 1.25em;
+		img {
+			display: inline-block;
+			max-width: 100%;
+		}
+		figcaption{
+			display: table-row;
+			em {
+				display: block;
+				font-weight: bold;
+				font-style: normal;
+				white-space: nowrap;
+			}
+			p {
+				margin: 0;
+				white-space: nowrap;
+			}
+		}
+		@media all and (max-width: 600px){
+			text-align: center;
+
+		}
+	}
+
+	.centered {
+
+		figure {
+			text-align: center;
+		}
+
+	}
+
+}
+
+.prod-aside-right{
+
+	@media all and (max-width: 1024px) and (min-width: 768px) {
+		float:right;
+		width: 50%;
+		@include box-sizing(border-box);
+		padding-left:5px;
+	}
+
+	@media all and (max-width: 768px) {
+		max-width: 320px;
+		margin:0 auto;
+	}
+
+}
+
+.prod-aside-left{
+
+	@media all and (max-width: 1024px) and (min-width: 768px) {
+		float:left;
+		width: 50%;
+		@include box-sizing(border-box);
+		padding-right:5px;
+
+	}
+
+	@media all and (max-width: 768px) {
+		max-width: 320px;
+		margin:0 auto;
+	}
+
+}

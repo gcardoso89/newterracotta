@@ -1,0 +1,115 @@
+@mixin gut($pixelValue) {
+
+	&.gut#{$pixelValue} {
+
+		$emValue : 0;
+
+		@if ($pixelValue > 0) {
+			$emValue : ($pixelValue/16)+em;
+		}
+
+		padding: $emValue;
+		margin-bottom: $emValue;
+
+		> .mold {
+			margin-left: -$emValue;
+			margin-bottom: -$emValue;
+			> li,
+			> figure,
+			> article{
+				padding-left: $emValue;
+				margin-bottom: $emValue;
+			}
+		}
+	}
+
+}
+
+@mixin column-elements($with){
+	> article,
+	> li,
+	> figure,
+	> .clearfix > article {
+		width:percentage($with);
+		@media all and (max-width: 767px ){
+			@if ( $with <= 0.5 ) {
+				width:percentage( 0.5 );
+			} @else {
+				width:percentage( 1 );
+
+			}
+		}
+		@media all and (max-width: 600px ){
+			@if ( $with <= 0.5 ) {
+				width:percentage( 1 );
+			}
+		}
+	}
+}
+
+@mixin column-width($value) {
+
+	$percentage : ($value/100);
+
+	&.c#{$value} {
+		> .mold {
+			@include column-elements($percentage);
+		}
+	}
+
+	> .c#{$value}.mold{
+		@include column-elements($percentage);
+	}
+
+}
+
+.grid {
+	padding: 1em;
+	clear: both;
+	margin-bottom: -1em;
+
+	> ul.mold {
+		margin-top: 0;
+		margin-right: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	> .mold {
+		margin-left: -1em;
+		margin-bottom: -1em;
+		clear: both;
+		> article,
+		> li,
+		> figure,
+		> .clearfix > article {
+			float: left;
+			padding-left: 1em;
+			margin-bottom: 1em;
+			overflow: visible;
+			@include box-sizing(border-box);
+		}
+	}
+
+	> .mold:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+
+	@include column-width(26);
+	@include column-width(25);
+	@include column-width(24);
+	@include column-width(20);
+	@include column-width(50);
+	@include column-width(33);
+
+	@include gut(0);
+	@include gut(5);
+	@include gut(13);
+	@include gut(25);
+	@include gut(30);
+
+}

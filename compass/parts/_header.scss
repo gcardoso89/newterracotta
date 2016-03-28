@@ -38,31 +38,37 @@ header {
 
 	.menu-cont {
 
-		@include transition(right 1s ease-out);
-		right: -320px;
+		@include transition(width 1s ease-out);
+		z-index: 2;
 
 		@media all and (max-width: 1024px) {
 			position: absolute;
 			top: -30px;
-			width: 320px;
+			width: 0px;
 			background: #000;
 			color: #fff;
-		}
-
-		&.opened {
 			right: 0;
+			overflow: hidden;
 		}
-
-		z-index: 2;
 
 		.ic-close{
 			position: absolute;
 			top: 7px;
-			right: 10px;
+			right: -310px;
 			font-size: 1.2em;
 			display: none;
 			@media all and (max-width: 1024px){
 				display: inline-block;
+			}
+			@include transition(right 1s ease-out);
+		}
+
+
+
+		&.opened {
+			width: 320px;
+			.ic-close{
+				right: 10px;
 			}
 		}
 
@@ -214,6 +220,10 @@ header {
 
 		}
 
+		@media all and (max-width: 1024px) {
+			width: 320px;
+		}
+
 	}
 
 	aside {
@@ -221,9 +231,11 @@ header {
 		position: absolute;
 		right: 40px;
 		top: 0;
+		
 
 		@media all and (max-width: 1024px) {
 			right:auto;
+			width: 320px;
 		}
 
 		.lang {
