@@ -19,6 +19,8 @@ app.engine('hbs', hbs.express4({
 	layoutsDir : path.join(__dirname, '/views'),
 	defaultLayout : path.join(__dirname, '/views/layout')
 }));
+
+console.log(path.join(__dirname, '/views/partials');
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, '/views'));
 // uncomment after placing your favicon in /public
