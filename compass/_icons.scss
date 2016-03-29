@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'newterracotta-icons';
 	src:
-		url('../fonts/newterracotta-icons.ttf?3ztbyh') format('truetype'),
-		url('../fonts/newterracotta-icons.woff?3ztbyh') format('woff'),
-		url('../fonts/newterracotta-icons.svg?3ztbyh#newterracotta-icons') format('svg');
+		url('../fonts/newterracotta-icons.ttf?6cs1nm') format('truetype'),
+		url('../fonts/newterracotta-icons.woff?6cs1nm') format('woff'),
+		url('../fonts/newterracotta-icons.svg?6cs1nm#newterracotta-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -67,6 +67,12 @@
 }
 .ic-pinterest:before {
 	content: "\f0d2";
+}
+.ic-caret-left:before {
+	content: "\f0d9";
+}
+.ic-caret-right:before {
+	content: "\f0da";
 }
 .ic-envelope:before {
 	content: "\f0e0";
