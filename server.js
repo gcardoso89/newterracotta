@@ -3,14 +3,14 @@
  */
 
 var app = require('./app');
-var debug = require('debug')('newterracotta:server');
+//var debug = require('debug')('newterracotta:server');
 var http = require('http');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.OPENSHIFT_NODEJS_PORT || '3000');
+var port = normalizePort('8081' || '3000');
 app.set('port', port);
 app.set('ip', process.env.OPENSHIFT_NODEJS_IP || '192.168.1.65');
 
@@ -85,5 +85,5 @@ function onListening() {
 	var bind = typeof addr === 'string'
 		? 'pipe ' + addr
 		: 'port ' + addr.port;
-	debug('Listening on ' + bind);
+	//debug('Listening on ' + bind);
 }
