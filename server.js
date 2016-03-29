@@ -2,7 +2,7 @@
  * Module dependencies.
  */
 
-var app = require('app');
+var app = require('./app');
 var debug = require('debug')('newterracotta:server');
 var http = require('http');
 

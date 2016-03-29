@@ -3,3 +3,4 @@ node_modules/*
 compass/.sass-cache/
 .idea/
 .idea/*
+npm-debug.log
