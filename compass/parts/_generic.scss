@@ -267,6 +267,11 @@ main {
 	font-size: 0.9375em;
 }
 
+.btn-big {
+	@extend .btn-default;
+	font-size: 1.2em;
+}
+
 .ipt-text {
 	background: #e7e7e7;
 	height: 40px;
