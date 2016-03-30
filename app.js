@@ -9,6 +9,7 @@ var hbs = require('express-hbs');
 var routes = require('./routes/index');
 var tiles = require('./routes/tiles');
 var atelier = require('./routes/atelier');
+var theFactory = require('./routes/the_factory');
 
 var app = express();
 
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/tiles', tiles);
 app.use('/atelier', atelier);
+app.use('/the-factory', theFactory);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
