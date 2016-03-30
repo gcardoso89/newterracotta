@@ -122,14 +122,14 @@ var NewTerracotta = NewTerracotta || {};
 		visibleArea -= ( ( this._scrollTop > this._containerTop ) ? ( this._scrollTop - this._containerTop ) : 0 );
 		visibleArea -= ( ( maskAreaFinal > videoAreaFinalFromTop ) ? maskAreaFinal - videoAreaFinalFromTop : 0 );
 
-		return ( visibleArea > this._ratioH * 0.4 );
+		return ( visibleArea > this._previousHeight * 0.4 );
 
 	};
 
 	Video.prototype._onPlayerReady = function( event ) {
 		this._container = $( '#' + this._containerId );
 		this._onResize();
-		//this._player.playVideo();
+		this._onScroll();
 	};
 
 

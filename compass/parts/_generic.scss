@@ -570,3 +570,15 @@ main {
 #video-container{
 	height: 682px;
 }
+
+.image-list{
+
+	margin-bottom: -15px;
+
+	figure {
+		margin-bottom: 15px;
+		img {
+			width: 100%;
+		}
+	}
+}
