@@ -1,9 +1,29 @@
 @mixin prodImgHeight($className, $height){
+
 	.#{$className} {
 		.prod-img-cont{
 			height: ($height)+px;
 		}
 	}
+
+	@if ($height > 300){
+		.#{$className} {
+			.prod-img-cont{
+				@media all and (max-width: 600px){
+					height: 270px!important;
+				}
+			}
+		}
+	} @else if ( $height > 200 ){
+		.#{$className} {
+			.prod-img-cont{
+				@media all and (max-width: 600px){
+					height: 190px!important;
+				}
+			}
+		}
+	}
+
 }
 
 .prod-list{
@@ -15,6 +35,8 @@
 		display: table-cell;
 		vertical-align: bottom;
 		height: 200px;
+		font-size:0;
+		padding-bottom: 8px;
 		@media all and (max-width: 600px){
 			height: auto !important;
 		}

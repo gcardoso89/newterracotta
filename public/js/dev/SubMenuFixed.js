@@ -12,12 +12,18 @@ var NewTerracotta = NewTerracotta || {};
 		this.scrlCtrl = (typeof(params.visible_element_selector) === "undefined" ) ? $( 'span', this.fixed ).eq( 0 ) : $( params.visible_element_selector, this.fixed );
 		this.imgs = $( 'img', this.fixed );
 		this.win = $( window );
+		this.hasImg = true;
 
 		this.nrLoaded = 0;
-		this.nrTotal = this.imgs.length;
+		this.nrTotal = (this.cont.hasClass('no-img') ) ? 0 : this.imgs.length;
 
 		for ( var i = 0; i < this.nrTotal; i++ ) {
 			this.imageLoader( this.imgs.eq( i ).attr( 'src' ) );
+		}
+
+		if ( this.nrTotal === 0 ){
+			this.hasImg = false;
+			this.activate();
 		}
 
 	}
@@ -51,13 +57,16 @@ var NewTerracotta = NewTerracotta || {};
 	SubMenuFixed.prototype.resizeHandler = function() {
 
 		var newW = this.cont.width();
-		this.contNewH = (newW * this.contH) / this.contW;
-		this.cont.css( { height: this.contNewH  } );
 
-		if ( this.win.width() < 1024 ) return false;
+		if ( this.hasImg ){
+			this.contNewH = (newW * this.contH) / this.contW;
+			this.cont.css( { height: this.contNewH  } );
 
-		if ( !this.fixed.hasClass( 'fixed' ) ) {
-			this.cTop = this.scrlCtrl.offset().top;
+			if ( !this.fixed.hasClass( 'fixed' ) ) {
+				this.cTop = this.scrlCtrl.offset().top;
+			}
+		} else {
+			this.cont.css( { height: this.contH } );
 		}
 
 	};

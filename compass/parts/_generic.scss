@@ -76,9 +76,14 @@ main {
 }
 
 .nav-top {
+
+	$textBlockHeightValue : 40px;
+
 	padding: 0;
 	max-width: $fullWrapWidth;
 	margin: 0 auto;
+	position: relative;
+	z-index: 5;
 
 	> ul {
 		@extend .ul-style-none;
@@ -92,6 +97,7 @@ main {
 			width: 25%;
 			margin-bottom: 0;
 			position: relative;
+			min-height: $textBlockHeightValue;
 
 			&.sel {
 				a {
@@ -106,9 +112,6 @@ main {
 			}
 			a {
 				&:hover {
-					span {
-						font-weight: 300;
-					}
 					img {
 						@include filter(grayscale(0%));
 					}
@@ -131,25 +134,59 @@ main {
 		@include transition(all .4s ease-out);
 		@include backface-visibility(hidden);
 	}
+
 	span {
 		display: block;
-		height: 52px;
+		height: $textBlockHeightValue;
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		width: 100%;
-		line-height: 52px;
+		line-height: $textBlockHeightValue;
 		text-align: center;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
 		color: #fff;
-		text-transform: uppercase;
-		font-size: 1.125em;
-		font-weight: 100;
+		font-size: 1.25em;
+		font-weight: bold;
 		z-index: 2;
 		@include box-sizing(border-box);
 		padding-right: 0;
 		margin-left: 0;
 	}
+
+
+	&.no-img {
+
+		height: $textBlockHeightValue;
+		margin-bottom:-$textBlockHeightValue;
+
+		ul {
+			width: 100%;
+			position: absolute;
+			&.fixed{
+				position: fixed;
+			}
+		}
+
+		img {
+			display: none;
+		}
+	}
+
+	&.yellow {
+		ul {
+			> li{
+				&.sel {
+					a {
+						span {
+							background: rgba(255, 231, 29, 0.7);
+						}
+					}
+				}
+			}
+		}
+	}
+
 }
 
 .main-sec {
@@ -388,6 +425,7 @@ main {
 	position: relative;
 	min-height: 635px;
 	overflow: hidden;
+	clear: both;
 
 	@media all and (max-width: 768px) {
 		min-height: 535px;
@@ -502,6 +540,11 @@ main {
 
 	padding: 30px 0;
 
+	+ .prod-list,
+	+ .projects-list{
+		margin-top:-30px;
+	}
+
 	&.centered {
 		text-align: center;
 	}
@@ -513,8 +556,7 @@ main {
 	}
 
 	h2 {
-		margin-bottom: 0!important;
-		line-height: 1.4;
+		margin-bottom: 0.3em !important;
 		font-size: $fontSize30;
 	}
 
@@ -565,6 +607,10 @@ main {
 		}
 	}
 
+	.upper{
+		text-transform: uppercase;
+	}
+
 }
 
 #video-container{
@@ -581,4 +627,20 @@ main {
 			width: 100%;
 		}
 	}
+}
+
+.txt-small{
+	font-size: 1.0em;
+}
+
+.txt-med{
+	font-size: 1.125em;
+}
+
+.txt-big{
+	font-size: 1.25em;
+}
+
+.txt-center{
+	text-align: center;
 }
