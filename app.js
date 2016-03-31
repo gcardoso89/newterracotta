@@ -22,7 +22,6 @@ app.engine('hbs', hbs.express4({
 	defaultLayout : path.join(__dirname, '/views/layout')
 }));
 
-console.log(path.join(__dirname, '/views/partials'));
 app.set('view engine', 'hbs');
 app.set('views', path.join(__dirname, '/views'));
 // uncomment after placing your favicon in /public
@@ -31,7 +30,6 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(require('node-compass')({mode: 'expanded'}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
