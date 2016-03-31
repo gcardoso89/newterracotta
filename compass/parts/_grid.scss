@@ -25,22 +25,34 @@
 
 }
 
-@mixin column-elements($with){
+@mixin column-elements($value){
+
+	$width : null;
+
+	@if ( $value == 0.33 ){
+		$width : 1/3;
+	} @else {
+		$width : $value;
+	}
+
 	> article,
 	> li,
 	> figure,
 	> .clearfix > article {
-		width:percentage($with);
+
+		width:percentage($width);
+
 		@media all and (max-width: 767px ){
-			@if ( $with <= 0.5 ) {
+			@if ( $width <= 0.5 ) {
 				width:percentage( 0.5 );
 			} @else {
 				width:percentage( 1 );
 
 			}
 		}
+
 		@media all and (max-width: 600px ){
-			@if ( $with <= 0.5 ) {
+			@if ( $width <= 0.5 ) {
 				width:percentage( 1 );
 			}
 		}
@@ -109,6 +121,7 @@
 	@include gut(0);
 	@include gut(5);
 	@include gut(13);
+	@include gut(14);
 	@include gut(25);
 	@include gut(30);
 
