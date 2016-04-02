@@ -1,0 +1,141 @@
+@mixin sec-column($side, $sidePadding, $addBorder) {
+
+	$inverseSide : null;
+
+	@if $side == right{
+		$inverseSide : left;
+	} @else{
+		$inverseSide : right;
+	}
+	.sec-col-#{$side} {
+		width: 50%;
+		@include box-sizing(border-box);
+		float: $side;
+		padding-#{$inverseSide}: (($sidePadding/2)/16)+em;
+
+		@if ($addBorder){
+			border-top: 3px solid #ffe71d;
+			.how-list{
+				dt{
+					&:first-child {
+						border-top: none;
+					}
+				}
+			}
+		}
+
+		@media all and (max-width: $fullWrapWidth){
+			padding-#{$side}: ($sidePadding/16)+em;
+		}
+
+		@media all and (max-width: 1024px){
+			width: auto;
+			float: none;
+			padding: 0 ($sidePadding/16)+em;
+		}
+	}
+}
+
+@mixin sec-column-group($sidePadding){
+	@include sec-column(left, $sidePadding,true);
+	@include sec-column(right, $sidePadding, false);
+}
+
+@include sec-column-group(35);
+
+.contact-list {
+
+	display: table;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: (30/16)+em;
+	width: 100%;
+
+	.row {
+		display: table-row;
+		> a {
+			width: 33.333%;
+			display: table-cell;
+			height: 100%;
+			position: relative;
+		}
+	}
+
+	@media all and (max-width: 768px) {
+		display: block;
+		table-layout: auto;
+		border-spacing: 0;
+		width: auto;
+		max-width: 480px;
+		@include box-sizing(border-box);
+		margin: (15/16)+em auto;
+
+		padding: 0 (30/16)+em;
+		.row {
+			display: block;
+			> a {
+				width: auto;
+				display: block;
+				margin: 0 0 (30/16)+em 0;
+			}
+		}
+	}
+
+}
+
+.how-list {
+
+	$baseFontSize: 20;
+	$paddingValue: (24/$baseFontSize)+em;
+
+	font-size: ($baseFontSize/16)+em;
+	margin: 0;
+
+	@media all and (max-width: 767px){
+		font-size: 1em;
+
+	}
+
+	dt {
+		text-transform: uppercase;
+		font-weight: bold;
+		padding-top: $paddingValue;
+		border-top: 3px solid #ffe71d;
+	}
+
+	dd {
+		margin: 0;
+		padding: 0 0 $paddingValue;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	ul {
+		@extend .ul-style-none;
+		li {
+			&:before {
+				content: '\00B7';
+				font-size: 1.7em;
+				line-height: 0.4em;
+				vertical-align: middle;
+				margin-right: 5px;
+			}
+		}
+	}
+
+	a {
+		color: inherit;
+		&:hover {
+			text-decoration: none;
+
+		}
+	}
+
+}
+
+.how-bt {
+	max-width: 380px;
+	margin: (30/16)+em auto;
+}
