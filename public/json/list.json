@@ -9,6 +9,14 @@
 
 	{
 		"title" : "Mother Studio 2"
+	},
+
+	{
+		"title" : "Romania",
+		"position" : {
+			"latitude" : 44.30812668,
+			"longitude" : 26.14746094
+		}
 	}
 
 ]
