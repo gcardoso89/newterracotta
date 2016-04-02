@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'newterracotta-icons';
 	src:
-		url('../fonts/newterracotta-icons.ttf?6cs1nm') format('truetype'),
-		url('../fonts/newterracotta-icons.woff?6cs1nm') format('woff'),
-		url('../fonts/newterracotta-icons.svg?6cs1nm#newterracotta-icons') format('svg');
+		url('../fonts/newterracotta-icons.ttf?g1vdst') format('truetype'),
+		url('../fonts/newterracotta-icons.woff?g1vdst') format('woff'),
+		url('../fonts/newterracotta-icons.svg?g1vdst#newterracotta-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -29,6 +29,9 @@
 .ic-heart:before {
 	content: "\f004";
 }
+.ic-th-large:before {
+	content: "\f009";
+}
 .ic-close:before {
 	content: "\f00d";
 }
@@ -50,8 +53,17 @@
 .ic-map-marker:before {
 	content: "\f041";
 }
+.ic-question-circle:before {
+	content: "\f059";
+}
 .ic-leaf:before {
 	content: "\f06c";
+}
+.ic-exclamation-triangle:before {
+	content: "\f071";
+}
+.ic-warning:before {
+	content: "\f071";
 }
 .ic-facebook:before {
 	content: "\f082";
@@ -61,6 +73,9 @@
 }
 .ic-phone:before {
 	content: "\f095";
+}
+.ic-wrench:before {
+	content: "\f0ad";
 }
 .ic-menu:before {
 	content: "\f0c9";
@@ -76,6 +91,12 @@
 }
 .ic-envelope:before {
 	content: "\f0e0";
+}
+.ic-gavel:before {
+	content: "\f0e3";
+}
+.ic-legal:before {
+	content: "\f0e3";
 }
 .ic-laptop:before {
 	content: "\f109";
@@ -97,5 +118,8 @@
 }
 .ic-diamond:before {
 	content: "\f219";
+}
+.ic-hashtag:before {
+	content: "\f292";
 }
 
