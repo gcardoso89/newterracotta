@@ -16,6 +16,8 @@
 			margin-bottom: -$emValue;
 			> li,
 			> figure,
+			> a,
+
 			> article{
 				padding-left: $emValue;
 				margin-bottom: $emValue;
@@ -38,6 +40,7 @@
 	> article,
 	> li,
 	> figure,
+	> a,
 	> .clearfix > article {
 
 		width:percentage($width);
