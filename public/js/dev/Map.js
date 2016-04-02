@@ -5,7 +5,7 @@ var NewTerracotta = NewTerracotta || {};
 	'use strict';
 
 	var settings = {
-		markerImage : 'http://localhost:3000/map_marker.svg',
+		markerImage : 'http://website-newterracotta.rhcloud.com/map-marker.svg',
 		map : {
 			lat: 44.33956525,
 			lng: 6.28417969,
@@ -69,7 +69,7 @@ var NewTerracotta = NewTerracotta || {};
 
 		var that = this;
 
-		this._list = data.map(function(element){
+		this._list = data.map( function(element){
 
 			var position = element.position;
 			if ( position ){
@@ -81,7 +81,7 @@ var NewTerracotta = NewTerracotta || {};
 						lat : lat,
 						lng : lng,
 						title : element.title,
-						image: that._settings.markerImage,
+						icon: that._settings.markerImage,
 						infoWindow: {
 							content: '<p><b style="text-transform:uppercase">' + element.title + '</b></p>'
 						}
@@ -89,7 +89,7 @@ var NewTerracotta = NewTerracotta || {};
 				}
 			}
 
-		});
+		} ).filter( element => element );
 
 		this._settings.map.el = this._settings.map.el || this._cont[0];
 		this._map = new GMaps( this._settings.map );
