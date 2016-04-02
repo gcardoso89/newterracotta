@@ -1,11 +1,11 @@
 @mixin sec-column($side, $sidePadding, $addBorder) {
 
-	$inverseSide : null;
+	$inverseSide: null;
 
 	@if $side == right{
-		$inverseSide : left;
-	} @else{
-		$inverseSide : right;
+		$inverseSide: left;
+	} @else {
+		$inverseSide: right;
 	}
 	.sec-col-#{$side} {
 		width: 50%;
@@ -13,31 +13,39 @@
 		float: $side;
 		padding-#{$inverseSide}: (($sidePadding/2)/16)+em;
 
-		@if ($addBorder){
-			border-top: 3px solid #ffe71d;
-			.how-list{
-				dt{
-					&:first-child {
-						border-top: none;
-					}
+		border-top: 3px solid #ffe71d;
+		.contact-block {
+			dt, h3 {
+				&:first-child {
+					border-top: none;
 				}
 			}
 		}
 
-		@media all and (max-width: $fullWrapWidth){
+		@media all and (max-width: $fullWrapWidth) {
 			padding-#{$side}: ($sidePadding/16)+em;
 		}
 
-		@media all and (max-width: 1024px){
+		@media all and (max-width: 1024px) {
 			width: auto;
 			float: none;
 			padding: 0 ($sidePadding/16)+em;
+			@if ($addBorder == false) {
+				border-top: none;
+				.contact-block {
+					dt, h3 {
+						&:first-child {
+							border-top: 3px solid #ffe71d;
+						}
+					}
+				}
+			}
 		}
 	}
 }
 
-@mixin sec-column-group($sidePadding){
-	@include sec-column(left, $sidePadding,true);
+@mixin sec-column-group($sidePadding) {
+	@include sec-column(left, $sidePadding, true);
 	@include sec-column(right, $sidePadding, false);
 }
 
@@ -83,7 +91,7 @@
 
 }
 
-.how-list {
+.contact-block {
 
 	$baseFontSize: 20;
 	$paddingValue: (24/$baseFontSize)+em;
@@ -91,29 +99,41 @@
 	font-size: ($baseFontSize/16)+em;
 	margin: 0;
 
-	@media all and (max-width: 767px){
+	@media all and (max-width: 767px) {
 		font-size: 1em;
 
 	}
 
-	dt {
+	dt, h3 {
 		text-transform: uppercase;
 		font-weight: bold;
+		font-size: 1em;
+		margin: 0;
 		padding-top: $paddingValue;
 		border-top: 3px solid #ffe71d;
+		i {
+			margin-right: (7/$baseFontSize)+em;
+		}
 	}
 
 	dd {
 		margin: 0;
 		padding: 0 0 $paddingValue;
+		ul, ol {
+			margin: 0;
+		}
 	}
 
 	p {
-		margin: 0;
+		margin: 0 0 1em;
+	}
+
+	ul, ol {
+		@extend .ul-style-none;
+		margin: 0 0 1em;
 	}
 
 	ul {
-		@extend .ul-style-none;
 		li {
 			&:before {
 				content: '\00B7';
@@ -122,6 +142,28 @@
 				vertical-align: middle;
 				margin-right: 5px;
 			}
+		}
+	}
+
+	hr{
+		height:3px;
+		background: #ffe71d;
+		margin:1em 0;
+		border:none;
+		display: block;
+	}
+
+	img {
+		max-width: 100%;
+		margin: 0 0 0.5em;
+	}
+
+	.box-gray {
+		padding: 13px;
+		background: #e5e5e5;
+		margin: 0 0 1.3em;
+		ul, ol {
+			margin: 0;
 		}
 	}
 

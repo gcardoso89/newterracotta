@@ -14,4 +14,20 @@ router.get('/delivery-and-returns', function(req, res, next) {
 	res.render('contacts-and-support/delivery_and_returns');
 });
 
+router.get('/technical-support', function(req, res, next) {
+	res.render('contacts-and-support/technical_support');
+});
+
+router.get('/contact-us', function(req, res, next) {
+	res.render('contacts-and-support/contact_us');
+});
+
+router.get('/showrooms-and-retailers', function(req, res, next) {
+	res.render('contacts-and-support/showrooms_and_retailers');
+});
+
+router.get('/faqs', function(req, res, next) {
+	res.render('contacts-and-support/faqs');
+});
+
 module.exports = router;

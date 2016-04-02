@@ -78,7 +78,12 @@ figure {
 	@include box-sizing(border-box);
 	@media all and (max-width: $fullWrapWidth) {
 		padding: 0;
+		.highlight-text{
+			padding-left:35px;
+			padding-right:35px;
+		}
 	}
+
 
 }
 
@@ -591,16 +596,6 @@ main {
 		margin-left: 5px;
 	}
 
-	&.smaller {
-		font-size: 0.8em;
-		max-width: 80%;
-		margin:0 auto;
-		@media all and ( max-width: 768px ){
-			max-width: none;
-
-		}
-	}
-
 	h2 {
 		margin-bottom: 0.3em !important;
 		font-size: $fontSize30;
@@ -626,6 +621,18 @@ main {
 		font-size: $fontSize25;
 	}
 
+
+	&.smaller {
+		h2, h3, p.big {
+			font-size: $fontSize25;
+		}
+		p {
+			margin:1em 0;
+			font-size: $fontSize20;
+		}
+	}
+
+
 	hr {
 		width: 16px;
 		border-top: 0;
@@ -643,7 +650,12 @@ main {
 			font-size: $fontSize22;
 		}
 		&.smaller {
-			font-size:1em;
+			h2, h3, p.big {
+				font-size: $fontSize25;
+			}
+			p {
+				font-size: $fontSize20;
+			}
 		}
 
 	}
@@ -652,8 +664,16 @@ main {
 		h2, h3, p.big {
 			font-size: $fontSize20;
 		}
+		p {
+			font-size: $fontSize18;
+		}
 		&.smaller {
-			font-size:1em;
+			h2, h3, p.big {
+				font-size: $fontSize20;
+			}
+			p {
+				font-size: $fontSize18;
+			}
 		}
 
 	}
