@@ -13,7 +13,7 @@ var http = require('http');
 var port = normalizePort(process.env.OPENSHIFT_NODEJS_PORT || '3000');
 app.set('port', port);
 
-var ip = process.env.OPENSHIFT_NODEJS_IP || 'localhost';
+var ip = process.env.OPENSHIFT_NODEJS_IP || '192.168.1.65';
 
 
 /**

@@ -30,4 +30,9 @@ router.get('/faqs', function(req, res, next) {
 	res.render('contacts-and-support/faqs');
 });
 
+
+router.post('/submitForm', function(req, res, next) {
+	res.redirect(301, '/contacts-and-support/contact-us');
+});
+
 module.exports = router;
