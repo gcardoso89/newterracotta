@@ -68,11 +68,10 @@ var NewTerracotta = NewTerracotta || {};
 		var newW = this.cont.width();
 		var numberOfLines = this.getNumberOfLines( newW );
 
-		if ( numberOfLines !== this.currentNumberOfLines ){
 			this.contW = newW;
 			this.contH = this.items.eq(0).height();
 			this.currentNumberOfLines = numberOfLines;
-		}
+
 
 		if ( this.hasImg ){
 			this.contNewH = (newW * this.contH) / this.contW;

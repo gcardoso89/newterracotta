@@ -210,8 +210,36 @@ main {
 				width: 33.3333333%;
 			}
 
-			&.fixed{
+			&.fixed {
 
+				> li {
+					&:nth-child(n+4){
+						height: 20px;
+						overflow: hidden;
+					}
+				}
+			}
+
+		}
+
+	}
+
+	@media all and (max-width: 650px){
+
+		> ul {
+
+			> li {
+				width: 50%;
+			}
+
+			&.fixed {
+
+				> li {
+					&:nth-child(n+3){
+						height: 20px;
+						overflow: hidden;
+					}
+				}
 			}
 
 		}
