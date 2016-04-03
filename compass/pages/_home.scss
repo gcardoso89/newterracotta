@@ -82,10 +82,11 @@
 	width: 31.2%;
 	float: left;
 	margin-left:3.2%;
-	&:first-child {
+	font-size: 1.25em;
+
+	&:nth-child(3n+1){
 		margin-left: 0%;
 	}
-	font-size: 1.25em;
 
 	@media all and (max-width: 1024px){
 		font-size:1.07em;
@@ -98,6 +99,9 @@
 		&:first-child{
 			margin-left:3.2%;
 		}
+		&:nth-child(n){
+			margin-left:3.2%;
+		}
 	}
 
 	@media all and (max-width: 600px){
@@ -108,11 +112,16 @@
 		&:first-child{
 			margin:0 auto 40px;
 		}
+
+		&:nth-child(n){
+			margin-left:auto;
+		}
 		font-size: 1em;
 	}
 
 
-	&:hover{
+	//change this to &:hover if you want the border visible on over
+	&.highlight{
 
 		> div{
 			padding: 15px;
@@ -131,6 +140,17 @@
 			}
 		}
 
+	}
+
+	&:hover{
+		a {
+			text-decoration: underline;
+		}
+		h3 {
+			a {
+				text-decoration: none;
+			}
+		}
 	}
 
 	a {

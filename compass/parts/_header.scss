@@ -153,6 +153,13 @@ header {
 						}
 
 					}
+
+					&.sel{
+						> a {
+							background: #bd943b;
+							color: #fff;
+						}
+					}
 				}
 
 				@media all and (max-width: 1024px) {
