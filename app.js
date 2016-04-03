@@ -11,6 +11,7 @@ var express = require('express' ),
 	theFactory = require('./routes/the_factory' ),
 	contacts = require('./routes/contacts'),
 	projects = require('./routes/projects' ),
+	motherStudio = require('./routes/mother_studio' ),
 	gruntTasks = require('./gruntTasks' ),
 	app = express();
 
@@ -38,6 +39,7 @@ app.use('/atelier', atelier);
 app.use('/the-factory', theFactory);
 app.use('/projects', projects);
 app.use('/contacts-and-support', contacts);
+app.use('/mother-studio', motherStudio);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
