@@ -9,10 +9,12 @@ var NewTerracotta = NewTerracotta || {};
 
 		this.cont = (typeof(params.content_selector) === "undefined" ) ? $( '.nav-top' ) : $( params.content_selector );
 		this.fixed = (typeof(params.fixed_element_selector) === "undefined" ) ? $( '> ul', this.cont ) : $( params.fixed_element_selector, this.cont );
+		this.items = (typeof(params.items_selector) === "undefined" ) ? $( '> li', this.fixed ) : $( params.fixed_element_selector, this.fixed );
 		this.scrlCtrl = (typeof(params.visible_element_selector) === "undefined" ) ? $( 'span', this.fixed ).eq( 0 ) : $( params.visible_element_selector, this.fixed );
 		this.imgs = $( 'img', this.fixed );
 		this.win = $( window );
 		this.hasImg = true;
+		this.currentNumberOfLines = null;
 
 		this.nrLoaded = 0;
 		this.nrTotal = (this.cont.hasClass('no-img') ) ? 0 : this.imgs.length;
@@ -33,8 +35,6 @@ var NewTerracotta = NewTerracotta || {};
 		var _this = this;
 
 		this.scrlCtrlH = this.scrlCtrl.outerHeight();
-		this.contH = this.contNewH = this.cont.height();
-		this.contW = this.cont.width();
 
 		this.refresh();
 
@@ -54,13 +54,29 @@ var NewTerracotta = NewTerracotta || {};
 
 	};
 
+	SubMenuFixed.prototype.getNumberOfLines = function( containerWidth ){
+
+		var nrElements = this.items.length;
+		var elementsPerLine = Math.round( containerWidth / this.items.width() );
+
+		return Math.ceil( nrElements / elementsPerLine );
+
+	};
+
 	SubMenuFixed.prototype.resizeHandler = function() {
 
 		var newW = this.cont.width();
+		var numberOfLines = this.getNumberOfLines( newW );
+
+		if ( numberOfLines !== this.currentNumberOfLines ){
+			this.contW = newW;
+			this.contH = this.items.eq(0).height();
+			this.currentNumberOfLines = numberOfLines;
+		}
 
 		if ( this.hasImg ){
 			this.contNewH = (newW * this.contH) / this.contW;
-			this.cont.css( { height: this.contNewH  } );
+			this.cont.css( { height: this.contNewH * numberOfLines } );
 
 			if ( !this.fixed.hasClass( 'fixed' ) ) {
 				this.cTop = this.scrlCtrl.offset().top;
