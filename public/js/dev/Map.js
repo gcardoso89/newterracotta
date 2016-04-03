@@ -9,7 +9,7 @@ var NewTerracotta = NewTerracotta || {};
 		map : {
 			lat: 44.33956525,
 			lng: 6.28417969,
-			minZoom : 4,
+			minZoom : 2,
 			maxZoom : 16,
 			zoom: 4,
 			zoomControl: true,
@@ -39,13 +39,29 @@ var NewTerracotta = NewTerracotta || {};
 
 	Map.prototype._init = function( params ) {
 
+		var that = this;
+
 		params = params || {};
 
 		this._cont = $( params.container || '#map-container' );
 		this._listUrl = params.url || '/json/list.json';
+		this._win = $(window);
 		this._list = null;
+		this._contTop = null;
+
+		this._win.bind('resize', function(){
+			that._onResize();
+		});
 
 		this._getList();
+
+	};
+
+	Map.prototype._onResize = function(){
+
+		this._winH = this._win.height();
+		this._contTop = this._cont.offset().top;
+		this._cont.height( 0.8 * ( this._winH - this._contTop ) );
 
 	};
 
@@ -86,13 +102,18 @@ var NewTerracotta = NewTerracotta || {};
 						title : element.title,
 						icon: that._settings.markerImage,
 						infoWindow: {
-							content: '<p><b style="text-transform:uppercase">' + element.title + '</b></p>'
+							content: '<div class="map-tooltip">' +
+								'<p><b style="text-transform:uppercase">' + element.title + '</b></p>' +
+								'<a href="geo:'+ lat +','+ lng +';u=35">Get directions</a>' +
+								'</div>'
 						}
 					}
 				}
 			}
 
 		} ).filter( element => element );
+
+		this._onResize();
 
 		this._settings.map.el = this._settings.map.el || this._cont[0];
 		this._map = new GMaps( this._settings.map );
