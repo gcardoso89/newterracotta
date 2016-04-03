@@ -78,12 +78,11 @@ figure {
 	@include box-sizing(border-box);
 	@media all and (max-width: $fullWrapWidth) {
 		padding: 0;
-		.highlight-text{
-			padding-left:35px;
-			padding-right:35px;
+		.highlight-text {
+			padding-left: 35px;
+			padding-right: 35px;
 		}
 	}
-
 
 }
 
@@ -201,6 +200,22 @@ main {
 				}
 			}
 		}
+	}
+
+	@media all and (max-width: 1024px){
+
+		> ul {
+
+			> li {
+				width: 33.3333333%;
+			}
+
+			&.fixed{
+
+			}
+
+		}
+
 	}
 
 }
@@ -335,14 +350,13 @@ main {
 		background: #ffe71d;
 	}
 	@include box-sizing(border-box);
-	&[type="submit"]{
+	&[type="submit"] {
 		font-weight: bold;
-		&:focus{
-			outline:0;
+		&:focus {
+			outline: 0;
 		}
 	}
 }
-
 
 .btn-small {
 	@extend .btn-default;
@@ -477,6 +491,22 @@ main {
 	min-height: 635px;
 	overflow: hidden;
 	clear: both;
+
+	&.adapt-image {
+		figure {
+			img {
+				max-height: 100%;
+			}
+
+			@media all and (max-width: 768px) {
+				height: 535px;
+			}
+
+			@media all and (max-width: 600px) {
+				height: 406px;
+			}
+		}
+	}
 
 	@media all and (max-width: 768px) {
 		min-height: 535px;
@@ -629,17 +659,15 @@ main {
 		font-size: $fontSize25;
 	}
 
-
 	&.smaller {
 		h2, h3, p.big {
 			font-size: $fontSize25;
 		}
 		p {
-			margin:1em 0;
+			margin: 1em 0;
 			font-size: $fontSize20;
 		}
 	}
-
 
 	hr {
 		width: 16px;
