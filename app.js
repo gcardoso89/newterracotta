@@ -1,19 +1,18 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-var hbs = require('express-hbs');
-
-var routes = require('./routes/index');
-var tiles = require('./routes/tiles');
-var atelier = require('./routes/atelier');
-var theFactory = require('./routes/the_factory');
-var contacts = require('./routes/contacts');
-var projects = require('./routes/projects');
-
-var app = express();
+var express = require('express' ),
+	path = require('path'),
+	favicon = require('serve-favicon' ),
+	logger = require('morgan'),
+	cookieParser = require('cookie-parser' ),
+	bodyParser = require('body-parser'),
+	hbs = require('express-hbs' ),
+	routes = require('./routes/index'),
+	tiles = require('./routes/tiles' ),
+	atelier = require('./routes/atelier'),
+	theFactory = require('./routes/the_factory' ),
+	contacts = require('./routes/contacts'),
+	projects = require('./routes/projects' ),
+	gruntTasks = require('./gruntTasks' ),
+	app = express();
 
 // view engine setup
 

@@ -11,6 +11,7 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "express-hbs": "^0.8.4",
+    "grunt": "^0.4.5",
     "morgan": "~1.6.1",
     "node-compass": "0.2.3",
     "normalize.css": "^3.0.3",
