@@ -23,8 +23,6 @@ var NewTerracotta = NewTerracotta || {};
 		var that = this;
 		var windowTop = this._win.scrollTop();
 
-		console.log(windowTop);
-
 		this._images.each(function() {
 
 			var element = $(this);
