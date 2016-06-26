@@ -3,6 +3,11 @@
 @import "_normalize";
 @import "_icons";
 
+$yellow : #ffe71d;
+$browser-context: 16;
+@function em($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}em;
+}
 
 @import "parts/_generic.scss";
 @import "parts/_grid.scss";

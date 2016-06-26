@@ -114,14 +114,13 @@ header {
 					line-height: 1.4;
 					text-decoration: none;
 
-					padding: 0.3em 0.65em 0.3em;
+					padding: 0.3em 0.55em 0.3em;
 
 					@media all and (max-width: 1200px) {
-						font-size: 1.3em;
+						font-size: (18/16)+em;
 					}
 
 					@media all and (max-width: 1024px) {
-						font-size: 1.25em;
 						text-align: left;
 						font-weight: bold;
 						color: #939598;
@@ -168,6 +167,7 @@ header {
 
 				@media all and (max-width: 1024px) {
 					display: block;
+					padding:0;
 				}
 
 			}
@@ -187,7 +187,7 @@ header {
 			left: 0;
 			display: none;
 			bottom: 0;
-			padding: 1.1em 1.35em;
+			padding: 1.1em 0.7em;
 			background: #000000;
 			@include box-sizing(border-box);
 			min-width: 180px;
@@ -205,12 +205,8 @@ header {
 					display: inline-block;
 					white-space: nowrap;
 
-					@media all and (max-width: 1200px) {
-						font-size: 1.0em;
-					}
-
 					@media all and (max-width: 1024px) {
-						font-size: 1em;
+						padding: 0.3em 0;
 					}
 
 				}

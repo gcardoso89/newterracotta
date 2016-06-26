@@ -14,7 +14,7 @@
 		padding-#{$inverseSide}: (($sidePadding/2)/16)+em;
 
 		@if ($addBorder == true) {
-			border-top: 3px solid #ffe71d;
+			border-top: 3px solid $yellow;
 			.contact-block {
 				dt, h3 {
 					&:first-child {
@@ -34,7 +34,7 @@
 					.contact-block {
 						dt, h3 {
 							&:first-child {
-								border-top: 3px solid #ffe71d;
+								border-top: 3px solid $yellow;
 							}
 						}
 					}
@@ -118,7 +118,7 @@
 		font-size: 1em;
 		margin: 0;
 		padding-top: $paddingValue;
-		border-top: 3px solid #ffe71d;
+		border-top: 3px solid $yellow;
 		i {
 			margin-right: (7/$baseFontSize)+em;
 		}
@@ -155,7 +155,7 @@
 
 	hr {
 		height: 3px;
-		background: #ffe71d;
+		background: $yellow;
 		margin: 1em 0;
 		border: none;
 		display: block;
@@ -374,11 +374,15 @@
 		margin:0 auto;
 	}
 
+	@media all and (max-width: 550px){
+		padding:20px 0 0 0;
+	}
+
 }
 
 .form-address {
 
-	$baseFont : 24;
+	$baseFont : 20;
 	font-style: normal;
 	font-size: ($baseFont/16)+em;
 	line-height: 1.4;
