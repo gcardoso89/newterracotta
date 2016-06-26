@@ -101,18 +101,20 @@ header {
 			> li {
 				display: inline-block;
 				position: relative;
+				padding:0 0.5em 0.75em;
 
 				> a {
 
-					font-size: 1.525em;
-					font-weight: bold;
+					font-size: (19/16)+em;
+					font-weight: normal;
+					text-transform: uppercase;
 
 					color: inherit;
 					display: inline-block;
 					line-height: 1.4;
 					text-decoration: none;
 
-					padding: 0.2em 0.6em 0.35em;
+					padding: 0.3em 0.65em 0.3em;
 
 					@media all and (max-width: 1200px) {
 						font-size: 1.3em;
@@ -140,11 +142,13 @@ header {
 
 				&.special {
 
+					padding-bottom: 0;
+
 					> a {
 
 						color: #bd943b;
 						border: 3px solid #bd943b;
-						padding: 0.2em 0.35em;
+						font-weight: bold;
 
 						@media all and (max-width: 1024px) {
 							padding: 0.5em 1em;
@@ -178,28 +182,28 @@ header {
 		.sec-level {
 
 			@extend .ul-style-none;
-			@include transform(translate(-50%, 100%));
-
+			@include transform(translate(0, 100%));
 			position: absolute;
-			left: 50%;
+			left: 0;
 			display: none;
-
 			bottom: 0;
-			width: 100%;
-			padding: 1.1em;
+			padding: 1.1em 1.35em;
 			background: #000000;
 			@include box-sizing(border-box);
 			min-width: 180px;
+			text-align: left;
+
 
 			> li {
 
 				> a {
 
-					font-size: 1.25em;
+					font-size: 1em;
 					color: #fff;
 					padding: 0.3em 0;
 					text-decoration: none;
 					display: inline-block;
+					white-space: nowrap;
 
 					@media all and (max-width: 1200px) {
 						font-size: 1.0em;
