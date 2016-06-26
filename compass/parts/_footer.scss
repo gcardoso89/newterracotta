@@ -171,3 +171,29 @@ footer {
 	}
 
 }
+
+.ft-social-links{
+
+	text-align: center;
+
+	padding: 15px 0;
+
+	a {
+		$iconSizePx: 52px;
+		$iconSize: 30;
+		font-size: ($iconSize/16)+em;
+		display: inline-block;
+		margin:0 (10/$iconSize)+em;
+		text-decoration: none;
+		width: $iconSizePx;
+		height: $iconSizePx;
+		background: #000;
+		color:#fff;
+		line-height: $iconSizePx;
+		@include border-radius($iconSizePx);
+		&:hover{
+			background: #7f7f7f;
+		}
+
+	}
+}
