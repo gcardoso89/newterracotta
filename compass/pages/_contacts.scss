@@ -395,3 +395,10 @@
 		font-weight: bold;
 	}
 }
+
+.form-text-block {
+	margin:2.5em 0;
+	&[data-checkbox]{
+		display: none;
+	}
+}

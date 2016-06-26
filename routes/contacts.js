@@ -19,7 +19,7 @@ router.get('/technical-support', function(req, res, next) {
 });
 
 router.get('/contact-us', function(req, res, next) {
-	res.render('contacts-and-support/contact_us');
+	res.render('contacts-and-support/contact_us', { partials : { contactForm : '/contacts-and-support/contact-form' } } );
 });
 
 router.get('/showrooms-and-retailers', function(req, res, next) {

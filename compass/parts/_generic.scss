@@ -70,6 +70,12 @@ figure {
 	@include box-sizing(border-box);
 }
 
+.wrap-small{
+	max-width: 1210px;
+	margin: 0 auto;
+
+}
+
 .wrap-double {
 	max-width: $fullWrapWidth;
 	padding-left: 35px;
@@ -90,6 +96,8 @@ main {
 	position: relative;
 	z-index: 1;
 }
+
+
 
 .nav-top {
 
@@ -252,20 +260,34 @@ main {
 	padding-top: 30px;
 }
 
-.h-blue {
+.h-base{
 	font-weight: bold;
-	font-size: 1.25em;
 	min-height: 40px;
-	color: #fff;
-	background: #537775;
 	text-transform: uppercase;
-	text-align: center;
 	margin: 0;
 	@include box-sizing(border-box);
 	padding-top: 8px;
 	padding-bottom: 8px;
 	line-height: 1.2;
 	clear: both;
+}
+
+.h-blue {
+	@extend .h-base;
+	background: #537775;
+	font-size: 1.25em;
+	text-align: center;
+	color:#fff;
+}
+
+.h-yellow {
+	@extend .h-base;
+	font-size: 1.25em;
+	text-align: left;
+	background: $yellow;
+	color:#000;
+	padding-left:8px;
+	padding-right:8px;
 }
 
 .h-black {

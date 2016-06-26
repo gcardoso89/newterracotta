@@ -1,0 +1,152 @@
+<script type="text/javascript">
+
+	$(function(){
+
+		$('#chk-retailer,#chk-samples').checkbox();
+
+	});
+
+</script>
+
+
+<div class="form-col-left">
+
+	{{#if successSubmit}}
+		<h2 class="form-tit">Email</h2>
+		<h3>Thanks for your contact. We'll get back to you as soon as possible.</h3>
+	{{/if}}
+
+	{{#unless successSubmit}}
+
+		<div class="form-tab">
+
+			<form action="/contacts-and-support/submitForm" method="POST">
+
+				<div class="row">
+					<div class="cell-label"></div>
+					<div class="cell-ipt"><h2 class="form-tit">Email</h2></div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label">
+						<label for="ipt-name">Name <span class="req">*</span></label>
+					</div>
+					<div class="cell-ipt">
+						<input placeholder="Name" type="text" required="required" id="ipt-name" name="name" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label">
+						<label for="ipt-email">Email <span class="req">*</span></label>
+					</div>
+					<div class="cell-ipt">
+						<input placeholder="Email" type="email" required="required" id="ipt-email" name="email" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label">
+						<label for="ipt-city">City</label>
+					</div>
+					<div class="cell-ipt">
+						<input placeholder="City" type="text" id="ipt-city" name="city" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label">
+						<label for="ipt-country">Country <span class="req">*</span></label>
+					</div>
+					<div class="cell-ipt">
+						<input placeholder="Country" type="text" required="required" id="ipt-country" name="country" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label">
+						<label for="ipt-comment">Comment <span class="req">*</span></label>
+					</div>
+					<div class="cell-ipt">
+						<textarea placeholder="Comment" id="ipt-comment" required="required" name="comment"></textarea>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label"></div>
+					<div class="cell-ipt">
+						<span data-checkbox-blc="retailer">
+							<input type="checkbox" id="chk-retailer" />
+							<label for="chk-retailer">Want to become a retailer?</label>
+						</span>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label"></div>
+					<div class="cell-ipt">
+						<span data-checkbox-blc="samples">
+							<input type="checkbox" id="chk-samples" />
+							<label for="chk-samples">Want to request samples?</label>
+						</span>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="cell-label"></div>
+					<div class="cell-ipt"><input type="submit" value="Submit" class="btn-big" /></div>
+				</div>
+
+			</form>
+
+		</div>
+
+	{{/unless}}
+
+</div>
+
+<div class="form-col-right">
+
+	<h2 class="form-tit">Address. Phone.</h2>
+
+	<address class="form-address">
+
+		<p>Polo Industrial de Vale de Borregão,<br />
+			Rua Democrática, s/n<br/>
+			3450-097 Marmeleira MRT<br/>
+			PORTUGAL</p>
+
+		<p>T.  +351 214 681 626<br />
+			M. +351 963 389 728</p>
+
+		<a href="#" class="btn-big">Find a showroom</a>
+	</address>
+
+	<div class="form-text-block" data-checkbox="retailer">
+		<h2 class="h-yellow">Become a retailer</h2>
+		<div class="txt-med">
+			<p>We are looking for committed retailers of our Tiles and Pottery in interesting stylish and
+				established shops where the emphasis is on architecture, construction, interior design. We
+				like to have a broad range of shops from elegant and chic to rustic and country.</p>
+			<p>We have a very strong support and training system. We want to help you as much as you help
+				us!</p>
+			<p>If you would like to learn more about joining our network around the world then we would love
+				to hear from you.</p>
+		</div>
+	</div>
+
+	<div class="form-text-block" data-checkbox="samples">
+		<h2 class="h-yellow">Samples service</h2>
+		<div class="txt-med">
+			<p><strong>Make the most of our samples.</strong></p>
+			<p><strong>Unit Samples</strong><br />
+				5,5 x 11 cm samples are available in the entire range of New Terracotta Colours.<br />
+				All samples are charged at unit price and attract a delivery cost.<br />
+				Sample cost is refundable upon purchase within 4 weeks.</p>
+			<p><strong>104 Colours Kit</strong><br />
+				2 Wood Sample Boxes with the entire colour collection attract a nominal<br />
+				99€ + VAT charge plus delivery cost.</p>
+		</div>
+	</div>
+
+</div>
