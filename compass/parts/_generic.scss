@@ -673,11 +673,6 @@ main {
 
 	padding: 30px 0;
 
-	+ .prod-list,
-	+ .projects-list {
-		margin-top: -30px;
-	}
-
 	&.centered {
 		text-align: center;
 	}
@@ -810,12 +805,20 @@ main {
 	padding: 130px 0;
 	background: #000;
 	color:#fff;
-	font-size: em(80);
+
 	font-weight: bold;
+
+	.huge {
+		font-size: em(80);
+	}
 
 	em {
 		font-style: normal;
 		text-transform: lowercase;
 	}
+
+}
+
+.checkbox{
 
 }
