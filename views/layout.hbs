@@ -8,6 +8,8 @@
 	<meta name="robots" content="noindex">
 
 	<script type="text/javascript" src="/js/jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="/js/dev/GoUp.js"></script>
+	<script type="text/javascript" src="/js/dev/BigMenuSelection.js"></script>
 	<script type="text/javascript" src="/js/dev/Menu.js"></script>
 	<script type="text/javascript" src="/js/dev/ResponsiveMenu.js"></script>
 	<script type="text/javascript" src="/js/dev/SubMenuFixed.js"></script>
@@ -21,6 +23,24 @@
 
 		$( function() {
 
+			new NewTerracotta.GoUp( {
+				btn_up: '.btn-up'
+			} );
+
+			new NewTerracotta.BigMenuSelection( {
+				container: '.search-container',
+				button: '.search-open',
+				selector: '.search-menu',
+				close: '.close-search'
+			} );
+
+			new NewTerracotta.BigMenuSelection( {
+				container: '.lang-container',
+				button: '.lang-bt',
+				selector: '.lang-menu',
+				close: '.close-lang'
+			} );
+
 			var menu = new NewTerracotta.Menu( {
 				content: 'header',
 				navigation: 'nav',
@@ -33,7 +53,7 @@
 				content: 'header',
 				button: '.bt-menu',
 				menu: '.menu-cont',
-				close: '.menu-cont .ic-close'
+				close: '.menu-cont .close-menu'
 
 			} );
 
@@ -51,7 +71,8 @@
 	<div class="wrap">
 
 		<div class="logo" title="New Terracotta - Portuguese Handmade">
-			<a href="/" title="Homepage | New Terracotta"><img src="/images/New-Terracotta-Portuguese-Handmade_logo.svg" alt="New Terracotta - Logo"></a>
+			<a href="/" title="Homepage | New Terracotta"><img src="/images/New-Terracotta-Portuguese-Handmade_logo.svg"
+															   alt="New Terracotta - Logo"></a>
 		</div>
 
 		<div class="menu-cont">
@@ -97,18 +118,30 @@
 			</nav>
 
 			<aside>
-				<div class="lang">
-					<span>EN</span>
-					<ul>
-						<li><a href="#">EN</a></li>
-						<li><a href="#">PT</a></li>
-						<li><a href="#">DE</a></li>
-						<li><a href="#">FR</a></li>
-					</ul>
+				<div class="lang-container">
+					<span class="lang-bt">EN</span>
+					<div class="lang-menu">
+						<span class="lang-menu-tit">Choose your language:</span>
+						<span class="ic-close-thin close-lang"></span>
+						<ul class="clearfix">
+							<li class="act"><a href="#">EN</a></li>
+							<li><a href="#">PT</a></li>
+							<li><a href="#">DE</a></li>
+							<li><a href="#">FR</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="search-container">
+					<span class="search-open ic-search-thin"></span>
+					<div class="search-menu">
+						<span class="ic-close-thin close-search"></span>
+						<input type="search" placeholder="SEARCH:">
+						<span class="search-bt ic-search-thin"></span>
+					</div>
 				</div>
 			</aside>
 
-			<span class="ic-close"></span>
+			<span class="ic-close close-menu"></span>
 
 		</div>
 
