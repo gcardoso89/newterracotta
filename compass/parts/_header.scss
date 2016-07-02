@@ -246,6 +246,7 @@ header {
 			color: inherit;
 			font-size: 1.125em;
 			cursor: pointer;
+			z-index: 1;
 			@media all and (max-width: 1024px) {
 				display: none;
 			}
@@ -343,6 +344,7 @@ header {
 			top: 30px;
 			font-size: em(35);
 			cursor: pointer;
+			z-index: 1;
 			@media all and (max-width: 1024px) {
 				display: none;
 			}
