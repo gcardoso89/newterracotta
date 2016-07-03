@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectTasksOptions">
+  <component name="ProjectTasksOptions" suppressed-tasks="Babel">
     <TaskOptions isEnabled="true">
       <option name="arguments" value="compile $ProjectFileDir$/compass" />
       <option name="checkSyntaxErrors" value="true" />
@@ -14,7 +14,6 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="passParentEnvs" value="true" />
       <option name="program" value="/usr/local/bin/compass" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
@@ -23,4 +22,3 @@
     </TaskOptions>
   </component>
 </project>
-

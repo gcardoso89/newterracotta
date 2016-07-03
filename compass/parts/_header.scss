@@ -262,6 +262,7 @@ header {
 			padding: 0 25px 0;
 			@include box-sizing(border-box);
 			display: none;
+			z-index: 2;
 
 			ul {
 				@extend .ul-style-none;
@@ -361,6 +362,7 @@ header {
 			padding: 0 25px 0;
 			@include box-sizing(border-box);
 			display: none;
+			z-index: 2;
 
 			::-webkit-input-placeholder {
 				color: #999999;

@@ -45,6 +45,18 @@
 
 		width:percentage($width);
 
+		@media all and (max-width: 1024px ){
+			@if ( $width <= 0.2 ) {
+				width:percentage( 0.25 );
+			}
+		}
+
+		@media all and (max-width: 915px ){
+			@if ( $width <= 0.2 ) {
+				width:percentage( 0.33 );
+			}
+		}
+
 		@media all and (max-width: 767px ){
 			@if ( $width <= 0.5 ) {
 				width:percentage( 0.5 );

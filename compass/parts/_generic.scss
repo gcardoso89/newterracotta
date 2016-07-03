@@ -112,21 +112,25 @@ main {
 	> ul {
 		@extend .ul-style-none;
 		@extend .clearfix;
-		max-width: $fullWrapWidth;
 		position: static;
 		z-index: 2;
+		margin-left:-0.5%;
 
 		> li {
 			float: left;
 			width: 25%;
 			margin-bottom: 0;
-			position: relative;
 			min-height: $textBlockHeightValue;
+			padding-left:0.5%;
+
+			@include box-sizing(border-box);
 
 			&.sel {
 				a {
 					span {
-						background: rgba(44, 101, 101, 0.95)
+						font-weight: bold;
+						color:#010000;
+						background: rgba(255, 231, 29, 0.85)
 					}
 					img {
 						@include filter(grayscale(0%));
@@ -135,6 +139,9 @@ main {
 
 			}
 			a {
+				position: relative;
+				display: block;
+
 				&:hover {
 					img {
 						@include filter(grayscale(0%));
@@ -146,6 +153,8 @@ main {
 		&.fixed {
 			position: fixed;
 			z-index: 2;
+			max-width: ($fullWrapWidth)+7;
+
 			> li {
 				overflow: visible;
 			}
@@ -171,7 +180,6 @@ main {
 		background: rgba(0, 0, 0, 0.7);
 		color: #fff;
 		font-size: 1.25em;
-		font-weight: bold;
 		z-index: 2;
 		@include box-sizing(border-box);
 		padding-right: 0;
@@ -184,29 +192,20 @@ main {
 		margin-bottom: -$textBlockHeightValue;
 
 		ul {
-			width: 100%;
+			width: 100.5%;
+			width: 100.5%;
 			position: absolute;
 			&.fixed {
 				position: fixed;
 			}
 		}
 
+		span {
+			 bottom: -40px;
+		}
+
 		img {
 			display: none;
-		}
-	}
-
-	&.yellow {
-		ul {
-			> li {
-				&.sel {
-					a {
-						span {
-							background: rgba(255, 231, 29, 0.7);
-						}
-					}
-				}
-			}
 		}
 	}
 
@@ -280,6 +279,14 @@ main {
 	color:#fff;
 }
 
+.h-prods {
+	@extend .h-base;
+	font-size: 1.25em;
+	color:#000000;
+	border-bottom:1px solid #939598;
+	text-transform: uppercase;
+}
+
 .h-yellow {
 	@extend .h-base;
 	font-size: 1.25em;
@@ -324,6 +331,7 @@ main {
 	float: left;
 	@include box-sizing(border-box);
 	padding-bottom: 40px;
+	padding-right: 20px;
 
 	@media all and (max-width: 1024px) {
 		width: auto;

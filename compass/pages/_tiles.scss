@@ -2,7 +2,11 @@
 
 	.#{$className} {
 		.prod-img-cont{
-			height: ($height)+px;
+			@if ( $height > 0 ){
+				height: ($height)+px;
+			} @else {
+				height: auto;
+			}
 		}
 	}
 
@@ -70,14 +74,15 @@
 
 	}
 
-	@include prodImgHeight('big',270);
-	@include prodImgHeight('medium',240);
+	@include prodImgHeight('big', 270);
+	@include prodImgHeight('medium', 240);
 	@include prodImgHeight('huge',345);
+	@include prodImgHeight('auto', 0);
 
 	figure {
 		display: table;
 		table-layout: fixed;
-		font-size: 1.25em;
+		font-size: 1.125em;
 		img {
 			display: inline-block;
 			max-width: 100%;

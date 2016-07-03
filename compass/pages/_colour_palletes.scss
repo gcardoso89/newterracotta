@@ -1,0 +1,313 @@
+
+.colour-list {
+
+	max-width: 1212px;
+	margin: 0 auto;
+	padding: 0 0 13px;
+
+	table {
+
+		&.matrix-prod {
+			display: none;
+		}
+
+	}
+
+}
+
+.colour-grid{
+
+	+ .colour-grid.grid {
+		padding-top: 20px;
+		margin-top: 20px;
+	}
+
+	&.grid {
+
+		padding: 0;
+		width: 986px;
+		margin: 0 auto 0;
+		> ul.mold {
+			padding: 0;
+			margin: 7px 0 13px 0px;
+			li {
+				width: 20%;
+				position: relative;
+				padding: 0;
+				margin: 0;
+				cursor: pointer;
+				h3, h4, dl, figcaption, a {
+					visibility: hidden;
+					position: absolute;
+					left: -9999px;
+					top: -9999px
+				}
+				img {
+					max-width: 100%;
+					display: block;
+				}
+			}
+		}
+	}
+
+}
+
+.colour-info {
+	position: absolute;
+	width: 425px;
+	left: 290px;
+	top: 1000px;
+	background: #fff;
+	z-index: 5;
+	padding: 2px;
+	visibility: hidden;
+
+	.top-info {
+		&:after {
+			content: ".";
+			clear: both;
+			display: block;
+			height: 0;
+			visibility: hidden;
+		}
+		margin-bottom: 2px;
+		padding: 0px;
+	}
+
+	.info {
+		float: left;
+		max-width: 194px;
+	}
+
+	.img {
+		float: left;
+		width: 195px;
+		height: 208px;
+		position: relative;
+		overflow: hidden;
+		margin-right: 13px;
+		img {
+			position: absolute;
+			display: block;
+			top: 50%;
+			left: 50%;
+			margin-top: -157px;
+			margin-left: -157px;
+		}
+	}
+
+	.tit {
+		font-size: 1.25em;
+		line-height: 1.1;
+		font-weight: normal;
+		margin-top: 16px;
+		margin-bottom: 5px;
+		text-transform: lowercase
+	}
+
+	.ref {
+		font-size: 0.9375em;
+		margin-bottom: 15px;
+	}
+
+	.bt {
+		padding-top: 13px;
+		margin-left: -10px;
+		a {
+			display: inline-block;
+			width: auto;
+			white-space: nowrap;
+			padding-left: 25px;
+			margin-left: 10px;
+			font-size: 0.625em;
+			line-height: 43px;
+			text-decoration: underline;
+			color: #241f1c;
+			&:first-child {
+				margin-left: 0;
+			}
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	dl {
+		font-size: 0.8125em;
+		margin: 0;
+		padding: 0;
+	}
+
+	dt {
+		padding: 0;
+		display: inline;
+		em {
+			font-style: normal;
+		}
+	}
+
+	dd {
+
+		display: inline;
+		margin: 0;
+		font-weight: 300;
+
+		&:after {
+			content: ".";
+			clear: both;
+			display: block;
+			height: 0;
+			visibility: hidden;
+		}
+
+	}
+
+	.bot {
+
+		> a {
+
+			line-height: 18px;
+			height: 18px;
+			display: block;
+			color: #fff;
+			background-color: #45403e;
+			text-align: center;
+			white-space: nowrap;
+			font-style: italic;
+			font-size: 0.6667em;
+			font-weight: 300;
+			text-transform: uppercase;
+
+			&:hover {
+				background: #241f1c
+			}
+		}
+
+		.tab {
+			display: none;
+		}
+
+	}
+
+	.bt-close {
+		position: absolute;
+		right: -8px;
+		top: 0px;
+	}
+
+}
+
+table.matrix-prod {
+	font-size: 0.6875em;
+	vertical-align: middle;
+	border-spacing: 0;
+	border-collapse: collapse;
+	line-height: 1.2;
+	width: 100%;
+
+	th {
+		padding: 3px 5px;
+		text-align: center;
+		border-bottom: 1px solid #fff;
+		border-left: 1px solid #fff;
+		&:first-child {
+			border-top: 0;
+			border-left: 0;
+		}
+		a {
+			color: #241f1c;
+		}
+	}
+
+	thead {
+		th {
+			&.sub-head {
+				width: 30px;
+			}
+		}
+	}
+
+	.caption {
+		text-transform: uppercase;
+		background: #241f1c;
+		color: #fff;
+		font-weight: 300;
+		font-style: italic
+	}
+
+	.head {
+		text-transform: uppercase;
+		background: #443e3c;
+		color: #fff;
+		font-weight: 300;
+		position: relative;
+		span {
+			position: absolute;
+			-webkit-transform: rotate(-90deg);
+			-webkit-transform-origin: left top;
+			width: 182px;
+			text-align: center;
+			bottom: 0;
+			height: 5px;
+			left: 3px;
+		}
+	}
+
+	.sub-head {
+		background: #d9d5d4;
+		font-weight: normal;
+		padding: 3px 7px;
+	}
+
+	tbody {
+
+		th {
+			text-align: left;
+			height: 25px;
+			border-bottom: 0;
+			border-top: 1px solid #fff !important;
+		}
+
+		.head {
+			width: 10px;
+		}
+	}
+
+	tr {
+		&:first-child {
+			th {
+				border-top: 0;
+			}
+		}
+	}
+
+	td {
+		background: #f8f6f4;
+		border-left: 1px solid #fff;
+		border-top: 1px solid #fff;
+		&.yes, &.no, &.lim {
+			text-indent: -999px;
+			background: url(../images/ics.png) no-repeat #f8f6f4;
+			overflow: hidden;
+		}
+
+		&.yes {
+			background-position: center -120px;
+		}
+
+		&.no {
+			background-position: center -150px;
+		}
+
+		&.lim {
+			background-position: center -240px;
+		}
+	}
+
+	tfoot {
+		td {
+			background: none;
+		}
+	}
+
+}
