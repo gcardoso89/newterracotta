@@ -465,6 +465,20 @@ main {
 	}
 }
 
+.ipt-search{
+	background:url(../images/ic-search.png) no-repeat 95% center;
+	font-size:1.0em;
+	padding:15px 7px;
+	line-height: 1.4;
+	border: 3px solid $yellow;
+	width:100%;
+	@include box-sizing(border-box);
+	&:focus {
+		outline: 0;
+	}
+	max-width: 270px;
+}
+
 .ipt-sel {
 	@include appearance(button);
 	@extend .ipt-text;
@@ -667,7 +681,20 @@ main {
 
 }
 
+
 .highlight-text {
+
+	@extend .clearfix;
+
+	hr {
+		width: 16px;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		margin: 14px auto;
+		border-bottom: 1px solid #676767;
+	}
+
 
 	&.bg-green {
 		background: #d4e7cd;
@@ -679,7 +706,7 @@ main {
 	$fontSize20: (20/16)+em;
 	$fontSize18: (18/16)+em;
 
-	padding: 30px 0;
+	padding: 40px 0;
 
 	&.centered {
 		text-align: center;
@@ -691,84 +718,44 @@ main {
 		margin-left: 5px;
 	}
 
-	h2 {
-		margin-bottom: 0.3em !important;
-		font-size: $fontSize30;
+	h2, h3, h4, h5{
+		font-size: $fontSize20;
+		margin: 0;
 	}
 
-	h2 + p,
-	h2 + em {
-		margin-top: 0;
+	p, em{
+		font-size: $fontSize18;
+		margin: 0;
 	}
 
-	h2, h3, p.big {
-		margin: 0.7em 0;
-		font-size: $fontSize30;
+	.col-left{
+		float:left;
+		width: 80%;
+		@include box-sizing(border-box);
+		padding-right: 15px;
 	}
 
-	em {
-		font-style: normal;
-		text-decoration: underline;
+	.col-right{
+		float:right;
+		width: 20%;
+		@include box-sizing(border-box);
+		padding-left: 15px;
 	}
 
-	p {
-		margin: 0.7em 0;
-		font-size: $fontSize25;
-	}
-
-	&.smaller {
-		h2, h3, p.big {
-			font-size: $fontSize25;
-		}
-		p {
-			margin: 1em 0;
-			font-size: $fontSize20;
-		}
-	}
-
-	hr {
-		width: 16px;
-		border-top: 0;
-		border-left: 0;
-		border-right: 0;
-		margin: 14px auto;
-		border-bottom: 1px solid #676767;
-	}
-
-	@media all and (max-width: 1024px) {
-		h2, h3, p.big {
-			font-size: $fontSize25;
-		}
-		p {
-			font-size: $fontSize22;
-		}
-		&.smaller {
-			h2, h3, p.big {
-				font-size: $fontSize25;
-			}
-			p {
-				font-size: $fontSize20;
-			}
+	@media all and (max-width: 1024px){
+		.col-left, .col-right{
+			width: auto;
+			float: none;
+			padding-left:0;
+			padding-right:0;
 		}
 
-	}
-
-	@media all and (max-width: 768px) {
-		h2, h3, p.big {
-			font-size: $fontSize20;
+		.col-left{
+			padding-bottom: 15px;
 		}
-		p {
-			font-size: $fontSize20;
+		.col-right{
+			padding-top: 15px;
 		}
-		&.smaller {
-			h2, h3, p.big {
-				font-size: $fontSize20;
-			}
-			p {
-				font-size: $fontSize20;
-			}
-		}
-
 	}
 
 	.upper {

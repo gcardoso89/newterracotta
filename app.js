@@ -36,7 +36,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/tiles', tiles);
-app.use('/atelier', atelier);
+app.use('/the-atelier', atelier);
 app.use('/the-factory', theFactory);
 app.use('/projects', projects);
 app.use('/contacts-and-support', contacts);
