@@ -7,19 +7,19 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/portuguese-tiles', function(req, res, next) {
-	res.render('atelier/portuguese_tiles', { portugueseTiles : true });
+	res.render('atelier/portuguese_tiles');
 });
 
 router.get('/bespoke-collections', function(req, res, next) {
 	res.render('atelier/bespoke_collections');
 });
 
-router.get('/bespoke-projects', function(req, res, next) {
-	res.render('atelier/bespoke_projects', { bespokeProjects : true });
+router.get('/inside-the-atelier', function(req, res, next) {
+	res.render('atelier/inside_atelier');
 });
 
 router.get('/pottery', function(req, res, next) {
-	res.render('atelier/pottery', { pottery : true });
+	res.render('atelier/artists_at_home');
 });
 
 module.exports = router;

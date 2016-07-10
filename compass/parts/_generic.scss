@@ -454,25 +454,44 @@ main {
 	line-height: 40px;
 	font-size: 0.9375em;
 	color: #000;
-	padding: 0 20px;
+	padding: 0 10px;
 	width: 100%;
+	font-size:0.925em;
 	@include box-sizing(border-box);
 	border: none;
 	@include border-radius(0);
 	margin: 0.1em 0;
 	&:focus {
 		outline: 1px solid rgba(0, 0, 0, 0.3);
+		z-index: 3;
+		&[readonly]{
+			z-index: 1;
+		}
 	}
 	text-align: right;
+	position: relative;
+	z-index:1;
+
+	&[readonly]{
+		background:#878787;
+	}
+
+	&.yellow{
+		background:$yellow!important;
+	}
+
 }
 
 .ipt-label{
-	height: 40px;
-	line-height: 40px;
-	margin-bottom: -40px;
+	height: 42px;
+	line-height: 42px;
+	margin-bottom: -42px;
 	display: block;
+	padding-left: 10px;
 	z-index: 2;
 	position: relative;
+	font-size:0.925em;
+
 }
 
 .ipt-search{
@@ -717,6 +736,8 @@ main {
 
 	@extend .clearfix;
 
+	$fontList: 80, 35, 30, 25, 22, 20, 18;
+
 	hr {
 		width: 16px;
 		border-top: 0;
@@ -731,13 +752,36 @@ main {
 		background: #d4e7cd;
 	}
 
-	$fontSize30: (30/16)+em;
-	$fontSize25: (25/16)+em;
-	$fontSize22: (22/16)+em;
-	$fontSize20: (20/16)+em;
-	$fontSize18: (18/16)+em;
+	&.bg-black {
+		background: #000;
+		color:#fff;
+	}
 
 	padding: 40px 0;
+
+	&.huge{
+		padding:130px 0;
+
+		@media all and (max-width: 1024px){
+			padding:(130*0.8)+px 0;
+		}
+
+		@media all and (max-width: 720px){
+			padding:(130*0.6)+px 0;
+		}
+	}
+
+	&.big {
+		padding:80px 0;
+
+		@media all and (max-width: 1024px){
+			padding:(100*0.8)+px 0;
+		}
+
+		@media all and (max-width: 720px){
+			padding:(100*0.6)+px 0;
+		}
+	}
 
 	&.centered {
 		text-align: center;
@@ -750,13 +794,49 @@ main {
 	}
 
 	h2, h3, h4, h5{
-		font-size: $fontSize20;
+		font-size: em(20);
 		margin: 0;
 	}
 
 	p, em{
-		font-size: $fontSize18;
+		font-size: em(18);
 		margin: 0;
+	}
+
+	em{
+		font-style: normal;
+	}
+
+	@for $i from 1 through length( $fontList ) {
+
+		$fontValue : nth($fontList, $i);
+
+		.t#{$fontValue}{
+			font-size: em($fontValue);
+
+			@if $fontValue > 20 {
+
+				@media all and ( max-width: 1024px ){
+
+					@if $fontValue*0.8 > 20 {
+						font-size: em($fontValue*0.8);
+					} @else {
+						font-size: em(20);
+					}
+
+				}
+
+				@media all and ( max-width: 720px ){
+					@if $fontValue*0.6 > 20 {
+						font-size: em($fontValue*0.6);
+					} @else {
+						font-size: em(20);
+					}
+				}
+			}
+
+		}
+
 	}
 
 	.col-left{

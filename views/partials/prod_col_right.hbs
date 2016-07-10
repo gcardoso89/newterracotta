@@ -1,34 +1,57 @@
 <aside class="main-col-right clearfix">
 
+	<script type="text/javascript">
+
+		$(function(){
+
+			new NewTerracotta.TileCalculator();
+
+		});
+
+	</script>
+
 	<div class="prod-aside-left">
 
 		<section>
 			<h3 class="h-black">Tile calculator</h3>
-			<select class="ipt-sel" placeholder="Tile">
-				<option value="">Tile</option>
-				<option value="" data-tile="48">14 x 14 cm</option>
-				<option value="" data-tile="78">11 x 11 cm</option>
-				<option value="" data-tile="92">10 x 10 cm</option>
-				<option value="" data-tile="196">7 x 7 cm</option>
-				<option value="" data-tile="98">14 x 7 cm</option>
-				<option value="" data-tile="160">11 x 5,5 cm</option>
-				<option value="" data-tile="190">10 x 5 cm</option>
-				<option value="" data-tile="33">30 x 10 cm</option>
-				<option value="" data-tile="91">22 x 5 cm</option>
-				<option value="" data-tile="47">30 x 7 cm</option>
-				<option value="" data-tile="102">20 x 4 cm</option>
-				<option value="" data-tile="79">HEXA . M | 14 x 12 cm - side 7 cm</option>
-				<option value="" data-tile="115">HEXA . S | 11,6 x 10 cm - side 6 cm</option>
-				<option value="" data-tile="137">ARAB | 12 x 12 cm</option>
-				<option value="" data-tile="104">LOSA . M | 10,5 x 12 cm - side 10,5 cm</option>
-				<option value="" data-tile="320">LOSA . S | 6 x 10 cm - side 6 cm</option>
-				<option value="" data-tile="148">T-DROP | 9 x 15 cm</option>
-				<option value="" data-tile="136">TRIA . M | 13 x 11 cm - side 13 cm</option>
-				<option value="" data-tile="230">TRIA . S | 10 x 8,5 cm - side 10 cm</option>
-				<option value="" data-tile="140">FISHSCALE | 12,5 x 11,5 cm</option>
-				<option value="" data-tile="86">TRAP | 18 x 9 cm</option>
+			<select id="select-tiles" class="ipt-sel" placeholder="Tile">
+				<option value="">Choose your tile</option>
+				<option value="" data-tiles="48">14 x 14 cm</option>
+				<option value="" data-tiles="78">11 x 11 cm</option>
+				<option value="" data-tiles="92">10 x 10 cm</option>
+				<option value="" data-tiles="196">7 x 7 cm</option>
+				<option value="" data-tiles="98">14 x 7 cm</option>
+				<option value="" data-tiles="160">11 x 5,5 cm</option>
+				<option value="" data-tiles="190">10 x 5 cm</option>
+				<option value="" data-tiles="33">30 x 10 cm</option>
+				<option value="" data-tiles="91">22 x 5 cm</option>
+				<option value="" data-tiles="47">30 x 7 cm</option>
+				<option value="" data-tiles="102">20 x 4 cm</option>
+				<option value="" data-tiles="79">HEXA . M | 14 x 12 cm</option>
+				<option value="" data-tiles="115">HEXA . S | 11,6 x 10 cm</option>
+				<option value="" data-tiles="137">ARAB | 12 x 12 cm</option>
+				<option value="" data-tiles="104">LOSA . M | 10,5 x 12 cm</option>
+				<option value="" data-tiles="320">LOSA . S | 6 x 10 cm</option>
+				<option value="" data-tiles="148">T-DROP | 9 x 15 cm</option>
+				<option value="" data-tiles="136">TRIA . M | 13 x 11 cm</option>
+				<option value="" data-tiles="230">TRIA . S | 10 x 8,5 cm</option>
+				<option value="" data-tiles="140">FISHSCALE | 12,5 x 11,5 cm</option>
+				<option value="" data-tiles="86">TRAP | 18 x 9 cm</option>
 			</select>
-			<input class="ipt-text" type="text" placeholder="Area of surface in sqm"/>
+			<label class="ipt-label" for="ipt-total-area">Define total area (sqm)</label>
+			<input id="ipt-total-area" class="ipt-text" type="number" value="00.0"/>
+
+			<label class="ipt-label" for="ipt-10-extra">10% extra (sqm)</label>
+			<input id="ipt-10-extra" class="ipt-text" readonly type="text" value="" />
+
+			<label class="ipt-label" for="ipt-estimated-sqm">Estimated <b>sqm</b> needed</label>
+			<input id="ipt-estimated-sqm" class="ipt-text yellow" readonly type="text" value="" />
+
+			<label class="ipt-label" for="ipt-estimated-tiles">Estimated <b>tiles</b> needed</label>
+			<input id="ipt-estimated-tiles" class="ipt-text yellow" readonly type="text" value="" />
+
+
+
 		</section>
 		<!--
 		<section>
@@ -71,7 +94,7 @@
 			<div class="aside-box">
 				<p>Our comprehensive and bespoke design consultation service is all about personalization.</p>
 
-				<p>Please <a href="#">contact us</a> for a made to order project.</p>
+				<p>Please contact <a href="#">The Atelier</a> for a made to order project.</p>
 			</div>
 		</section>
 		<section>
@@ -87,6 +110,7 @@
 
 		<a href="#" class="btn-default">Product Spec Guide<i class="ic-download"></i></a>
 		<a href="#" class="btn-default">How to buy & lead times</a>
+		<a href="#" class="btn-default">Choosing colours</a>
 		<a href="#" class="btn-default">See our projects</a>
 
 	</div>
