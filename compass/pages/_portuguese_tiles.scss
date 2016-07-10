@@ -1,222 +1,189 @@
 
-
 .gal-cron {
+
+	$colorList: #49a0c0,#0aa75f,#fabd17,#5f2843,#0ec69d,#0072bc,#ec9a33,#7295bf,#5f2843,#f0d643,#49a0c0,#0072bc,#fabd17,#0aa75f,#7295bf,#0ec69d,#49a0c0;
+
 	position: relative;
 	list-style: none;
 	max-width: 600px;
-	margin:30px auto 0;
+	margin: 30px auto 0;
 
 	padding: 70px 0;
 	@extend .clearfix;
 	background: url(../images/bg_crono.gif) repeat-y center top;
 
-	@media all and (max-width: 1220px){
+	@media all and (max-width: 1220px) {
 		max-width: none;
 		width: 100%;
-	}
-
-	&:before{
-		content: ".";
-		width: 19px;
-		height: 19px;
-		@include border-radius(20px);
-		@include box-sizing(border-box);
-		border: 3px solid #000;
-		color: #fff;
-		display: block;
-		position: absolute;
-		left: 50%;
-		margin-left: -9px;
-		top: -18px;
-		text-indent: -99px;
-		overflow:hidden;
 	}
 
 	li {
 		list-style: none;
 		width: 100%;
-		display: table;
 		position: relative;
-		margin-bottom: -30px;
+		margin-bottom: 20px;
 		z-index: 1;
 
-		@media all and (max-width: 1220px){
-			width: auto;
-			margin-bottom: 20px;
+		&:before{
+			content:".";
+			height:2px;
+			background:#464646;
+			color:#464646;
+			text-indent:-9999px;
+			position: absolute;
+			z-index: 1;
+			width: 100%;
+			top: 45px;
+			left: 0;
 		}
 
-		@media all and (max-width: 670px){
+		@media all and (max-width: 1220px) {
+			width: auto;
+			margin-bottom: 50px;
+		}
+
+		@media all and (max-width: 670px) {
 			width: 100%;
+			&:before{
+				display: none;
+			}
 		}
 
 		@extend .clearfix;
 
 		> p {
-
-			display: table;
-			height: 40px;
-			line-height: 40px;
-			font-size:1.25em;
-			color:#fff;
+			display: inline-block;
+			padding: 10px 20px;
+			font-size: 1.875em;
+			color: #fff;
 			font-weight: bold;
-			text-align: center;
 			background: #959595;
 			margin: 0;
 			position: relative;
 			z-index: 1;
-			width: 380px;
-
 			@include box-sizing(border-box);
 
-			@media all and (max-width: 670px){
+			@media all and (max-width: 670px) {
 				width: 100%;
+				text-align: center;
 			}
+
+			> span {
+				font-size: em(20, 30);
+				font-weight: normal;
+				display: block;
+			}
+
 		}
 
 		figure {
 			position: relative;
-			z-index: 1;
-			width: 220px;
-			border: 3px solid #959595;
+			z-index: 2;
+			border: 3px solid #363636;
 			@include box-sizing(border-box);
-			img{
+			@include border-radius(200px);
+			@include transform(translate3d(0, -25%, 0));
+			overflow: hidden;
+
+			img {
 				width: 100%;
 			}
-			@media all and (max-width: 670px){
+			@media all and (max-width: 670px) {
 				display: none;
-			}
-			@extend [class^="ic-"];
-
-			&:before{
-				position: absolute;
-				width: 20px;
-				top: 50%;
-				@include transform(translate(0, -50%));
-				font-size: 2.1em;
-				color: #959595;
 			}
 		}
 
 		.info {
 
-			display: table;
-			border: 3px solid #959595;
-			margin-top: 4px;
-			width: 380px;
+			padding: 20px;
 			background: #fff;
 			position: relative;
 			z-index: 1;
-			font-size:0.875em;
+			font-size: 0.875em;
+			width: 600px;
 
 			dl,
 			dd,
-			dt{
-				margin:0;
+			dt {
+				margin: 0;
 			}
 
-			dt{
+			dt {
 				font-weight: bold;
 			}
 
-			h2, h3, h4{
-				font-size:1em;
-				margin:0.7em 0;
-				&:first-child{
-					margin-top:0;
+			h2, h3, h4 {
+				font-size: 1em;
+				margin: 0.7em 0;
+				&:first-child {
+					margin-top: 0;
 				}
 			}
 
 			@include box-sizing(border-box);
 
-			> div {
-				display: table-cell;
-				padding: 15px 7px;
-			}
-
-			@media all and (max-width: 670px){
+			@media all and (max-width: 670px) {
 				width: 100%;
 			}
 
 		}
 
-
 		&:nth-child(odd) {
 
-			right: 52%;
+			right: 51%;
+			text-align: right;
 
 			figure {
-				float: right;
-				right: -2px;
-				@extend .ic-caret-right;
-				&:before{
-					right:-23px;
-				}
+				float: left;
 			}
 
-			> p {
-				left: -2px;
-			}
-
-			.info {
-				left: -2px;
-
-			}
-
-			@media all and (max-width: 1220px){
+			@media all and (max-width: 1220px) {
 				right: auto;
-				float:left;
-			}
-
-			@media all and (max-width: 670px){
-				> p{
-					left:auto;
-				}
-				.info {
-					left:auto;
-				}
+				float: left;
 			}
 
 		}
 
 		&:nth-child(even) {
 
-			left: 52%;
+			left: 51%;
+			text-align: left;
 
 			figure {
-				float: left;
-				left: -2px;
-				@extend .ic-caret-left;
-				&:before{
-					left:-20px;
-					text-align: right;
-				}
+				float: right;
 			}
 
 			> p {
-				right: -2px;
+				left: 1px;
 			}
 
 			.info {
-				right: -2px;
+				left: 1px;
 			}
 
-			@media all and (max-width: 1220px){
+			@media all and (max-width: 1220px) {
 				left: auto;
-
-				float:right;
+				float: right;
 			}
 
+			@media all and (max-width: 670px) {
 
-			@media all and (max-width: 670px){
-
-				> p{
-					right:auto;
+				> p {
+					left: auto;
 				}
 				.info {
-					right:auto;
+					left: auto;
 				}
 			}
 
+		}
+
+		@for $i from 1 through length( $colorList ){
+			&:nth-child(#{$i}) {
+				> p {
+					background-color: nth( $colorList, $i );
+				}
+			}
 		}
 
 	}
