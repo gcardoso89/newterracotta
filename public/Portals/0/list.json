@@ -4,7 +4,8 @@
 		"position" : {
 			"latitude" : 38.703798,
 			"longitude" : -9.16287661
-		}
+		},
+		"block" : "#map-block-1"
 	},
 
 	{
@@ -16,7 +17,8 @@
 		"position" : {
 			"latitude" : 44.30812668,
 			"longitude" : 26.14746094
-		}
+		},
+		"block" : "#map-block-2"
 	}
 
 ]

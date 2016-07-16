@@ -45,7 +45,9 @@ var NewTerracotta = NewTerracotta || {};
 		this.resizeHandler();
 
 		this.win.load( function() {
-			_this.items.eq( 0 ).trigger( 'click' );
+			if ( _this.winWidth > 720 ){
+				_this.items.eq( 0 ).trigger( 'click' );
+			}
 			$( 'a', _this.navItems ).bind( 'click', navigateToColour );
 			_this.win.bind( 'scroll', function() {
 				_this.scrollHandler()
@@ -181,19 +183,25 @@ var NewTerracotta = NewTerracotta || {};
 	ColourList.prototype.moveTooltip = function( obj ) {
 
 		var offX = obj.offset().left;
-		var posX = offX + this.btW / 2;
 		var tW = this.target.width();
-		if ( posX + tW > this.winWidth ) {
-			posX = posX - tW;
-			this.target.addClass( 'invert' );
+		var posX = null;
+
+		if ( this.winWidth < 720 ){
+			posX = ( this.winWidth / 2 ) - ( tW / 2 );
 		}
 		else {
-			this.target.removeClass( 'invert' );
+			posX = offX + this.btW / 2;
+			if ( posX + tW > this.winWidth ) {
+				posX = posX - tW;
+				this.target.addClass( 'invert' );
+			}
+			else {
+				this.target.removeClass( 'invert' );
+			}
 		}
 
 		var posY = obj.offset().top + (this.items.height() / 2) - this.offsetValue;
-
-		this.target.css( { left: posX, top: posY } );
+		this.target.css( {left: posX, top: posY} );
 
 	};
 

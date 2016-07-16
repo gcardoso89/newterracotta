@@ -32,12 +32,35 @@
 				position: fixed;
 				z-index: 7;
 				max-width: $fullWrapWidth+7;
+
+				@media all and (max-width: 1024px) {
+					> li:nth-child(n+4) {
+						height: 40px;
+						overflow: hidden;
+					}
+				}
+
+				@media all and (max-width: 720px) {
+					> li:nth-child(n+3) {
+						height: 40px;
+						overflow: hidden;
+					}
+				}
+
 			}
 		}
 
 		&.small {
 			li {
 				width: 25%;
+
+				@media all and (max-width: 1024px) {
+					width: 33.33%;
+				}
+
+				@media all and (max-width: 720px) {
+					width: 50%;
+				}
 			}
 		}
 
@@ -45,15 +68,24 @@
 			width: 20%;
 
 			&:hover, &.sel {
-				img{
+				img {
 					@include filter(grayscale(0));
 				}
-				.tit{
+				.tit {
 					background: rgba($yellow, 0.85);
-					color:#000;
+					color: #000;
 					font-weight: bold;
 				}
 			}
+
+			@media all and (max-width: 1024px) {
+				width: 33.33%;
+			}
+
+			@media all and (max-width: 720px) {
+				width: 50%;
+			}
+
 		}
 
 		img {
@@ -64,13 +96,12 @@
 			-webkit-backface-visibility: hidden;
 		}
 
-
-
 	}
 
 	.cont {
 		position: relative;
 		display: block;
+		height: 100%;
 	}
 
 	.tit {
@@ -113,6 +144,20 @@
 				position: relative;
 				padding: 0;
 				margin: 0;
+
+				@media all and (max-width: 780px){
+					width: 25%;
+				}
+
+				@media all and (max-width: 650px){
+					width: 33.3333%;
+				}
+
+				@media all and (max-width: 480px){
+					width: 50%;
+
+				}
+
 				cursor: pointer;
 				h3, h4, dl, figcaption, a {
 					visibility: hidden;
@@ -124,7 +169,7 @@
 					max-width: 100%;
 					display: block;
 				}
-				&.dark{
+				&.dark {
 					img {
 						opacity: 0.3;
 					}

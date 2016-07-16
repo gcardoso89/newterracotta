@@ -19,10 +19,14 @@ var NewTerracotta = NewTerracotta || {};
 		this._ratioW = params.radio_window || 1210;
 		this._ratioH = params.radio_height || 682;
 
+		this._startBtn = $( params.btn_start );
+
+		this._player = null;
 		this._winW = null;
 		this._previousHeight = null;
 		this._isPlaying = null;
 		this._containerTop = null;
+		this._canPlay = !!params.auto_start;
 
 		this._win.bind( 'resize', function() {
 			that._onResize();
@@ -30,6 +34,17 @@ var NewTerracotta = NewTerracotta || {};
 
 		this._win.bind( 'scroll', function() {
 			that._onScroll();
+		} );
+
+		this._startBtn.bind( 'click', function( e ) {
+			e.preventDefault();
+			if ( params.onBtnStartClick ) {
+				params.onBtnStartClick();
+			}
+			if ( that._player ) {
+				that._player.playVideo();
+			}
+			that._canPlay = true;
 		} );
 
 		this._startYoutubeApi();
@@ -107,16 +122,16 @@ var NewTerracotta = NewTerracotta || {};
 
 	Video.prototype._onScroll = function() {
 
+		if ( !this._canPlay ) return;
+
 		this._scrollTop = this._win.scrollTop();
 
 		var containerIsSufficientlyVisible = this._checkIfContainerIsSufficientlyVisible();
 
 		if ( containerIsSufficientlyVisible && !this._isPlaying && !this._isMobileOrTablet() ) {
 			this._player.playVideo();
-			this._isPlaying = true;
 		} else if ( !containerIsSufficientlyVisible && this._isPlaying && !this._isMobileOrTablet() ) {
 			this._player.pauseVideo();
-			this._isPlaying = false;
 		}
 
 	};
@@ -142,7 +157,7 @@ var NewTerracotta = NewTerracotta || {};
 
 
 	Video.prototype._onPlayerStateChange = function( event ) {
-
+		this._isPlaying = event.data === YT.PlayerState.PLAYING;
 	};
 
 	NewTerracotta.Video = Video;

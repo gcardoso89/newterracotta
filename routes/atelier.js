@@ -18,7 +18,7 @@ router.get('/inside-the-atelier', function(req, res, next) {
 	res.render('atelier/inside_atelier');
 });
 
-router.get('/pottery', function(req, res, next) {
+router.get('/artists-at-home', function(req, res, next) {
 	res.render('atelier/artists_at_home');
 });
 

@@ -2,238 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="386a4343-9192-49bc-92f2-48a190657dd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/colours/Basic-colours-nav-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/colours/Matt-colours-nav-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/colours/Oxide-colours-nav-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/colours/Special-firing-nav-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/colours/Vintage-colours-nav-top.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tiles-top-nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/mouldings/Mouldings-top-nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-top-nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-top-nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/compass/pages/_colour_palletes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/colours.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/colours/colour-palettes.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/partials/nav_top_colour_palettes.hbs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tiles-top-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/mouldings/Mouldings-top-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-top-nav.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-top-nav.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Centro-2020_logo.png" afterPath="$PROJECT_DIR$/public/Portals/0/Images/Centro-2020_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Discovery-history-of-Azulejos-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/Discovery-history-of-Azulejos-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Handmade-Tiles-Portuguese-Craftsmanship.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/Handmade-Tiles-Portuguese-Craftsmanship.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Handmade-Tiles-Portuguese-Culture.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/Handmade-Tiles-Portuguese-Culture.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/How-to-buy-and-lead-times-homepage-2.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/How-to-buy-and-lead-times-homepage-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Mario-Marzagao-Azulejo-Portugal.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/Mario-Marzagao-Azulejo-Portugal.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/New-Terracotta-Portuguese-Handmade_logo.svg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/New-Terracotta-Portuguese-Handmade_logo.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Portugal-2020_logo.png" afterPath="$PROJECT_DIR$/public/Portals/0/Images/Portugal-2020_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/Shop-by-Colours-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/Shop-by-Colours-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/The-Factory-workers.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/The-Factory-workers.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/UE-Fundo-Europeu-de-Desenvolvimento-Regional_logo.png" afterPath="$PROJECT_DIR$/public/Portals/0/Images/UE-Fundo-Europeu-de-Desenvolvimento-Regional_logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/Bespoke-Projects-top-nav.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/Bespoke-Projects-top-nav.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/Historic-Restorations-top-nav.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/Historic-Restorations-top-nav.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/Portuguese-Tiles-top-nav.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/Portuguese-Tiles-top-nav.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/Pottery-top-nav.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/Pottery-top-nav.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-001.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-002.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-003.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-004.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-005.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-006.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-006.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-007.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-007.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-008.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-008.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-009.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-009.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-010.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-010.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-011.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-011.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-012.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-012.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-013.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-013.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-014.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-014.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-015.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-016.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-016.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-017.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-017.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-018.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-018.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-019.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-019.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-020.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-020.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-021.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-021.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-022.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-022.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-023.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-023.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-024.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-024.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Modern-025.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Modern-025.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-001.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-002.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-003.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-004.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-005.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-006.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-006.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-007.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-007.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-008.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-008.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-009.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-009.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-010.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-010.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-011.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-011.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-012.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-012.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-013.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-013.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-014.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-014.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-015.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-016.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-016.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Precious-017.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Precious-017.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/bespoke-projects/Untitled-2.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/bespoke-projects/Untitled-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-001.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-002.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-003.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-004.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-005.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-006.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-006.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-007.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-007.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-008.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-008.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-009.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-009.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-010.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-010.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-011.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-011.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-012.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-012.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-013.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-013.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-014.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-014.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-015.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/historic-restorations/Heritage-016.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/historic-restorations/Heritage-016.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-001.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-002.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-003.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-004.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-005.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-006.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-006.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-007.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-007.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-008.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-008.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-009.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-009.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-010.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-010.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-011.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-011.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-012.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-012.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-013.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-013.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-014.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-014.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/atelier/pottery/Pottery-015.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/atelier/pottery/Pottery-015.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/bg_crono.gif" afterPath="$PROJECT_DIR$/public/Portals/0/Images/bg_crono.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/contacts-and-support/Mother-Studio-Showroom-Lisbon.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/contacts-and-support/Mother-Studio-Showroom-Lisbon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/contacts-and-support/Tiles-Installation.png" afterPath="$PROJECT_DIR$/public/Portals/0/Images/contacts-and-support/Tiles-Installation.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mother-studio/Mother-Studio-Cement-Tiles-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Cement-Tiles-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mother-studio/Mother-Studio-Highlight-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Highlight-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mother-studio/Mother-Studio-Marble-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Marble-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mother-studio/Mother-Studio-Mosaics-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Mosaics-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mother-studio/Mother-Studio-Rugs-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Rugs-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mother-studio/Mother-Studio-Tiles-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Tiles-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/mother-studio/Mother-Studio-Wood-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Wood-homepage.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Alicatado-711-716.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Alicatado-711-716.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Azulejaria-Hispano-Mourisca-secXV.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Azulejaria-Hispano-Mourisca-secXV.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Azulejaria-de-Autor-e-Figurativa_secXVII-XVIII.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Azulejaria-de-Autor-e-Figurativa_secXVII-XVIII.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Corda-Seca-secXIII-XIV.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Corda-Seca-secXIII-XIV.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/D_Maria-Neoclacissismo_1780-1808.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/D_Maria-Neoclacissismo_1780-1808.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Grande-Producao-Joanina-1725.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Grande-Producao-Joanina-1725.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Influencia-Oriental-Frontais-de-Altar-secXVII.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Influencia-Oriental-Frontais-de-Altar-secXVII.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Majolica-secXVI.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Majolica-secXVI.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Maneirismo-secXVI.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Maneirismo-secXVI.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Mario-Marzagao-Azulejo-Portugal.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Mario-Marzagao-Azulejo-Portugal.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Portuguese-Azulejos.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Portuguese-Azulejos.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Pos-Terramoto-Azulejaria-Pombalina-1755-1780.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Pos-Terramoto-Azulejaria-Pombalina-1755-1780.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Rafael-Bordalo-Pinheiro-Paredes-secXX.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Rafael-Bordalo-Pinheiro-Paredes-secXX.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Reforma-da-Igreja-Catolica_secXVI.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Reforma-da-Igreja-Catolica_secXVI.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Relevo-e-Aresta-secXV-XVI.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Relevo-e-Aresta-secXV-XVI.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Renovacao-Tematica-Barroco-XVII.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Renovacao-Tematica-Barroco-XVII.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Rococo-Insinuacao-da-cor-1740.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Rococo-Insinuacao-da-cor-1740.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Romantismo-Revivalismo-Fachadas-secXIX.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Romantismo-Revivalismo-Fachadas-secXIX.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/portuguese-tiles/Uma-Nova-Abordagem-secXX.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/portuguese-tiles/Uma-Nova-Abordagem-secXX.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/projects/Bathroom-Handcrafted-Tiles-Esmerald-Lake.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/projects/Bathroom-Handcrafted-Tiles-Esmerald-Lake.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/the-factory/The-Factory-1.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/the-factory/The-Factory-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/the-factory/The-Factory-2.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/the-factory/The-Factory-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/the-factory/The-Factory-3.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/the-factory/The-Factory-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/the-factory/The-Factory-4.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/the-factory/The-Factory-4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/the-factory/The-Factory-5.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/the-factory/The-Factory-5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/the-factory/The-Factory-6.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/the-factory/The-Factory-6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/the-factory/The-Factory-7.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/the-factory/The-Factory-7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-10x10cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-10x10cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-10x5cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-10x5cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-11x11cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-11x11cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-11x5.5cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-11x5.5cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-14x14cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-14x14cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-14x7cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-14x7cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-20x4cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-20x4cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-22x5cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-22x5cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-30x10cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-30x10cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-30x7cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-30x7cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-7x7cm.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-7x7cm.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Arab.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Arab.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Fish-Scale.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Fish-Scale.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Hexa-M.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Hexa-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Hexa-S.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Hexa-S.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Losa-M.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Losa-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Losa-S.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Losa-S.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Square.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Square.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-T-Drop.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-T-Drop.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Trap.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Trap.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Tria-M.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Tria-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Tria-S.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Tria-S.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/field-tiles/Field-Tile-Triangle.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/field-tiles/Field-Tile-Triangle.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/mouldings/Moulding-Algarve.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/mouldings/Moulding-Algarve.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/mouldings/Moulding-Cane.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/mouldings/Moulding-Cane.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/mouldings/Moulding-Classic.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/mouldings/Moulding-Classic.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/mouldings/Moulding-Douro.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/mouldings/Moulding-Douro.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/mouldings/Moulding-Minho.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/mouldings/Moulding-Minho.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Bump.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Bump.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Capitonne.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Capitonne.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Capoeira-M.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Capoeira-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Capoeira-S.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Capoeira-S.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Constellation.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Constellation.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Cork.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Cork.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Cubist.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Cubist.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Deco.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Deco.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Envelope.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Envelope.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Gladiator.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Gladiator.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Kiss.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Kiss.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Mondrian.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Mondrian.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Pyramide.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Pyramide.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Rafia.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Rafia.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Skater.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Skater.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Star.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Star.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Subway-1.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Subway-1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Subway-2.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Subway-2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Subway-3.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Subway-3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/new-modern/New-Modern-Zig-Zag.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/new-modern/New-Modern-Zig-Zag.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Arraiolos.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Arraiolos.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Bordallo.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Bordallo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Botao.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Botao.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Califa.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Califa.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Florao-M.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Florao-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Florao-S.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Florao-S.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Parra.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Parra.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Pinheiro.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Pinheiro.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Regua-M.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Regua-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Regua-S.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Regua-S.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Renda-M.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Renda-M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Renda-S.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Renda-S.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/tiles/portuguese-heritage/Portuguese-Heritage-Renda.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/tiles/portuguese-heritage/Portuguese-Heritage-Renda.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/atelier/artists_at_home.hbs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/json/list.json" afterPath="$PROJECT_DIR$/public/Portals/0/list.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Cement-Tiles-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Cement-Tiles-homepage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Highlight-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Highlight-homepage.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Rugs-homepage.jpg" afterPath="$PROJECT_DIR$/public/Portals/0/Images/mother-studio/Mother-Studio-Rugs-homepage.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/pages/_projects.scss" afterPath="$PROJECT_DIR$/compass/pages/_projects.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/pages/_tiles.scss" afterPath="$PROJECT_DIR$/compass/pages/_tiles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/pages/_colour_palletes.scss" afterPath="$PROJECT_DIR$/compass/pages/_colour_palletes.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/pages/_contacts.scss" afterPath="$PROJECT_DIR$/compass/pages/_contacts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/pages/_home.scss" afterPath="$PROJECT_DIR$/compass/pages/_home.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/parts/_generic.scss" afterPath="$PROJECT_DIR$/compass/parts/_generic.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/parts/_grid.scss" afterPath="$PROJECT_DIR$/compass/parts/_grid.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/parts/_header.scss" afterPath="$PROJECT_DIR$/compass/parts/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compass/style.scss" afterPath="$PROJECT_DIR$/compass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/atelier/bespoke_projects.hbs" afterPath="$PROJECT_DIR$/views/atelier/bespoke_projects.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/atelier/historic_restorations.hbs" afterPath="$PROJECT_DIR$/views/atelier/historic_restorations.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/atelier/portuguese_tiles.hbs" afterPath="$PROJECT_DIR$/views/atelier/portuguese_tiles.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/atelier/pottery.hbs" afterPath="$PROJECT_DIR$/views/atelier/pottery.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/dev/ColourList.js" afterPath="$PROJECT_DIR$/public/js/dev/ColourList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/dev/Map.js" afterPath="$PROJECT_DIR$/public/js/dev/Map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/dev/Parallax.js" afterPath="$PROJECT_DIR$/public/js/dev/Parallax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/dev/SubMenuFixed.js" afterPath="$PROJECT_DIR$/public/js/dev/SubMenuFixed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/dev/Video.js" afterPath="$PROJECT_DIR$/public/js/dev/Video.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/atelier.js" afterPath="$PROJECT_DIR$/routes/atelier.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contacts-and-support/contact_us.hbs" afterPath="$PROJECT_DIR$/views/contacts-and-support/contact_us.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contacts-and-support/how_to_buy.hbs" afterPath="$PROJECT_DIR$/views/contacts-and-support/how_to_buy.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contacts-and-support/showrooms_and_retailers.hbs" afterPath="$PROJECT_DIR$/views/contacts-and-support/showrooms_and_retailers.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/contacts-and-support/technical_support.hbs" afterPath="$PROJECT_DIR$/views/contacts-and-support/technical_support.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.hbs" afterPath="$PROJECT_DIR$/views/layout.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/mother-studio/mother_studio.hbs" afterPath="$PROJECT_DIR$/views/mother-studio/mother_studio.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/nav_top_atelier.hbs" afterPath="$PROJECT_DIR$/views/partials/nav_top_atelier.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/nav_top_collections.hbs" afterPath="$PROJECT_DIR$/views/partials/nav_top_collections.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/prod_col_right.hbs" afterPath="$PROJECT_DIR$/views/partials/prod_col_right.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/projects/projects.hbs" afterPath="$PROJECT_DIR$/views/projects/projects.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/partials/nav_top_bespoke.hbs" afterPath="$PROJECT_DIR$/views/partials/nav_top_bespoke.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/the-factory/the_factory.hbs" afterPath="$PROJECT_DIR$/views/the-factory/the_factory.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tiles/field_tiles.hbs" afterPath="$PROJECT_DIR$/views/tiles/field_tiles.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tiles/mouldings.hbs" afterPath="$PROJECT_DIR$/views/tiles/mouldings.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tiles/new_modern.hbs" afterPath="$PROJECT_DIR$/views/tiles/new_modern.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tiles/portuguese_heritage.hbs" afterPath="$PROJECT_DIR$/views/tiles/portuguese_heritage.hbs" />
     </list>
     <ignored path="newterracotta.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -254,101 +45,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nav_top_atelier.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/nav_top_atelier.hbs">
+      <file leaf-file-name="artists_at_home.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/atelier/artists_at_home.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="420">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav_top_collections.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/nav_top_collections.hbs">
+      <file leaf-file-name="_colour_palletes.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/pages/_colour_palletes.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="2265">
+              <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav_top_colour_palettes.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/partials/nav_top_colour_palettes.hbs">
+      <file leaf-file-name="_contacts.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/pages/_contacts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="529">
+              <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/projects/projects.hbs">
+      <file leaf-file-name="mother_studio.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/mother-studio/mother_studio.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="405">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="the_factory.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/the-factory/the_factory.hbs">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/compass/pages/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="1015">
+              <caret line="226" column="36" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="field_tiles.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tiles/field_tiles.hbs">
+      <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/parts/_grid.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="-1025">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mouldings.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tiles/mouldings.hbs">
+      <file leaf-file-name="showrooms_and_retailers.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/contacts-and-support/showrooms_and_retailers.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new_modern.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tiles/new_modern.hbs">
+      <file leaf-file-name="Map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/dev/Map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+            <state relative-caret-position="-71">
+              <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+              <folding>
+                <marker date="1468683660000" expanded="true" signature="3772:3796" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ColourList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/dev/ColourList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portuguese_heritage.hbs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tiles/portuguese_heritage.hbs">
+      <file leaf-file-name="_generic.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/compass/parts/_generic.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="79" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bespoke_projects.hbs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/atelier/bespoke_projects.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="505">
+              <caret line="892" column="9" selection-start-line="892" selection-start-column="9" selection-end-line="892" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -374,52 +167,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server.js" />
-        <option value="$PROJECT_DIR$/public/js/dev/Map.js" />
-        <option value="$PROJECT_DIR$/compass/_fonts.scss" />
-        <option value="$PROJECT_DIR$/compass/parts/_footer.scss" />
-        <option value="$PROJECT_DIR$/public/js/functions.js" />
-        <option value="$PROJECT_DIR$/compass/pages/_home.scss" />
-        <option value="$PROJECT_DIR$/compass/pages/_contacts.scss" />
-        <option value="$PROJECT_DIR$/public/js/dev/Checkbox.js" />
-        <option value="$PROJECT_DIR$/views/contacts-and-support/contact-form.hbs" />
-        <option value="$PROJECT_DIR$/routes/contacts.js" />
-        <option value="$PROJECT_DIR$/views/partials/contact-form.hbs" />
-        <option value="$PROJECT_DIR$/views/contacts-and-support/contact_us.hbs" />
-        <option value="$PROJECT_DIR$/public/js/dev/Parallax.js" />
-        <option value="$PROJECT_DIR$/compass/_icons.scss" />
-        <option value="$PROJECT_DIR$/public/js/dev/Main.js" />
-        <option value="$PROJECT_DIR$/public/js/dev/BigMenuSelection.js" />
         <option value="$PROJECT_DIR$/public/js/dev/GoUp.js" />
         <option value="$PROJECT_DIR$/compass/parts/_header.scss" />
-        <option value="$PROJECT_DIR$/views/partials/prod_col_right.hbs" />
         <option value="$PROJECT_DIR$/compass/pages/_projects.scss" />
-        <option value="$PROJECT_DIR$/views/colours/colour-palettes.hbs" />
-        <option value="$PROJECT_DIR$/compass/parts/_generic.scss" />
         <option value="$PROJECT_DIR$/compass/parts/_grid.scss" />
         <option value="$PROJECT_DIR$/compass/pages/_tiles.scss" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/colours.js" />
         <option value="$PROJECT_DIR$/compass/style.scss" />
-        <option value="$PROJECT_DIR$/compass/pages/_colour_palletes.scss" />
         <option value="$PROJECT_DIR$/views/atelier/historic_restorations.hbs" />
-        <option value="$PROJECT_DIR$/views/atelier/portuguese_tiles.hbs" />
         <option value="$PROJECT_DIR$/views/atelier/pottery.hbs" />
-        <option value="$PROJECT_DIR$/views/contacts-and-support/showrooms_and_retailers.hbs" />
         <option value="$PROJECT_DIR$/views/contacts-and-support/technical_support.hbs" />
-        <option value="$PROJECT_DIR$/views/index.hbs" />
-        <option value="$PROJECT_DIR$/views/layout.hbs" />
-        <option value="$PROJECT_DIR$/views/mother-studio/mother_studio.hbs" />
         <option value="$PROJECT_DIR$/views/partials/nav_top_atelier.hbs" />
         <option value="$PROJECT_DIR$/views/partials/nav_top_collections.hbs" />
-        <option value="$PROJECT_DIR$/views/partials/nav_top_colour_palettes.hbs" />
         <option value="$PROJECT_DIR$/views/projects/projects.hbs" />
-        <option value="$PROJECT_DIR$/views/the-factory/the_factory.hbs" />
         <option value="$PROJECT_DIR$/views/tiles/field_tiles.hbs" />
         <option value="$PROJECT_DIR$/views/tiles/mouldings.hbs" />
         <option value="$PROJECT_DIR$/views/tiles/new_modern.hbs" />
         <option value="$PROJECT_DIR$/views/tiles/portuguese_heritage.hbs" />
+        <option value="$PROJECT_DIR$/public/js/functions.js" />
+        <option value="$PROJECT_DIR$/views/partials/nav_top_colour_palettes.hbs" />
         <option value="$PROJECT_DIR$/views/atelier/bespoke_projects.hbs" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/public/js/dev/TileSearch.js" />
+        <option value="$PROJECT_DIR$/views/colours/colour-palettes.hbs" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/atelier/bespoke_collections_.hbs" />
+        <option value="$PROJECT_DIR$/views/atelier/bespoke_collections.hbs" />
+        <option value="$PROJECT_DIR$/compass/pages/_portuguese_tiles.scss" />
+        <option value="$PROJECT_DIR$/views/atelier/portuguese_tiles.hbs" />
+        <option value="$PROJECT_DIR$/views/partials/prod_col_right.hbs" />
+        <option value="$PROJECT_DIR$/views/layout.hbs" />
+        <option value="$PROJECT_DIR$/public/js/dev/TileCalculator.js" />
+        <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/views/atelier/inside_atelier.hbs" />
+        <option value="$PROJECT_DIR$/views/partials/nav_top_bespoke.hbs" />
+        <option value="$PROJECT_DIR$/public/js/dev/SubMenuFixed.js" />
+        <option value="$PROJECT_DIR$/public/js/dev/Parallax.js" />
+        <option value="$PROJECT_DIR$/routes/atelier.js" />
+        <option value="$PROJECT_DIR$/views/atelier/artists_at_home.hbs" />
+        <option value="$PROJECT_DIR$/public/js/dev/Video.js" />
+        <option value="$PROJECT_DIR$/views/the-factory/the_factory.hbs" />
+        <option value="$PROJECT_DIR$/views/contacts-and-support/how_to_buy.hbs" />
+        <option value="$PROJECT_DIR$/compass/pages/_contacts.scss" />
+        <option value="$PROJECT_DIR$/views/contacts-and-support/contact_us.hbs" />
+        <option value="$PROJECT_DIR$/public/Portals/0/list.json" />
+        <option value="$PROJECT_DIR$/public/js/dev/Map.js" />
+        <option value="$PROJECT_DIR$/views/contacts-and-support/showrooms_and_retailers.hbs" />
+        <option value="$PROJECT_DIR$/compass/pages/_colour_palletes.scss" />
+        <option value="$PROJECT_DIR$/public/js/dev/ColourList.js" />
+        <option value="$PROJECT_DIR$/views/mother-studio/mother_studio.hbs" />
+        <option value="$PROJECT_DIR$/compass/parts/_generic.scss" />
+        <option value="$PROJECT_DIR$/compass/pages/_home.scss" />
       </list>
     </option>
   </component>
@@ -432,8 +230,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="305" />
-    <option name="y" value="38" />
+    <option name="x" value="287" />
+    <option name="y" value="23" />
     <option name="width" value="1923" />
     <option name="height" value="1316" />
   </component>
@@ -707,7 +505,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
+              <option name="myItemId" value="Portals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -725,7 +527,149 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="Portals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="the-atelier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="the-atelier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artists-at-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Portals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newterracotta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -834,7 +778,6 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="settings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
-    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
@@ -845,19 +788,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/routes" />
-      <recent name="$PROJECT_DIR$/views/partials" />
-      <recent name="$PROJECT_DIR$/public/fonts" />
-      <recent name="$PROJECT_DIR$/views/contacts-and-support" />
-      <recent name="$PROJECT_DIR$/public/images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/Portals/0" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/Portals/0/Images" />
       <recent name="$PROJECT_DIR$/views/partials" />
       <recent name="$PROJECT_DIR$/public/js" />
-      <recent name="$PROJECT_DIR$/public/json" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/atelier" />
+      <recent name="$PROJECT_DIR$/public/js/dev" />
+      <recent name="$PROJECT_DIR$/views/partials" />
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$/public/fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -929,15 +872,16 @@
       <option name="presentableId" value="Default" />
       <updated>1455367341911</updated>
       <workItem from="1466943418927" duration="23577000" />
-      <workItem from="1467472485355" duration="7466000" />
+      <workItem from="1467472485355" duration="11658000" />
+      <workItem from="1468068851013" duration="30950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31043000" />
+    <option name="totallyTimeSpent" value="66185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="38" width="1923" height="1316" extended-state="0" />
+    <frame x="287" y="23" width="1923" height="1316" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18616745" sideWeight="0.6703672" order="0" side_tool="false" content_ui="combo" />
@@ -960,6 +904,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -968,251 +920,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/compass/pages/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/fonts/newterracotta-icons.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/dev/BigMenuSelection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/dev/GoUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/dev/Parallax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/_icons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/parts/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="364" column="22" selection-start-line="364" selection-start-column="22" selection-end-line="364" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/prod_col_right.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/pages/_projects.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/parts/_generic.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="281" column="4" selection-start-line="281" selection-start-column="3" selection-end-line="281" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/parts/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/pages/_tiles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/atelier.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/colours.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/compass/pages/_colour_palletes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="310" column="5" selection-start-line="310" selection-start-column="5" selection-end-line="310" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/async/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/colors/ReadMe.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/colors/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/express-hbs/example/views/partials/scripts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/findup-sync/node_modules/lodash/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log-utils/node_modules/lodash/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log-utils/node_modules/underscore.string/test/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log-utils/node_modules/underscore.string/test/test_standalone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log-utils/node_modules/underscore.string/test/test_underscore/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log-utils/node_modules/underscore.string/test/test_underscore/vendor/jslitmus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="405" column="59" selection-start-line="405" selection-start-column="59" selection-end-line="405" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log/node_modules/lodash/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_standalone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,46 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="405" column="59" selection-start-line="405" selection-start-column="59" selection-end-line="405" selection-end-column="59" />
-          <folding>
-            <marker date="1373449276000" expanded="true" signature="8993:11082" ph="..." />
-            <marker date="1373449276000" expanded="true" signature="9169:9250" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="9298:9455" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="9497:9589" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="9613:9733" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="9769:9826" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="9857:9912" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="9950:10026" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10061:10136" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10225:10234" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10269:10306" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10372:10440" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10652:10729" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10743:10800" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10818:10887" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10911:10964" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="10988:11068" ph="{...}" />
-            <marker date="1373449276000" expanded="true" signature="11149:12375" ph="..." />
-            <marker date="1373449276000" expanded="false" signature="11815:11827" ph="..." />
-            <marker date="1373449276000" expanded="true" signature="11828:11931" ph="..." />
-            <marker date="1373449276000" expanded="false" signature="12017:12029" ph="..." />
-            <marker date="1373449276000" expanded="true" signature="12030:12222" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/atelier/historic_restorations.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/atelier/portuguese_tiles.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,22 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/colours/colour-palettes.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/contacts-and-support/showrooms_and_retailers.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1295,74 +950,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="230" column="33" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/mother-studio/mother_studio.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/nav_top_atelier.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/nav_top_collections.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/partials/nav_top_colour_palettes.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/projects/projects.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tiles/new_modern.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tiles/portuguese_heritage.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5970">
+          <caret line="995" column="0" selection-start-line="995" selection-start-column="0" selection-end-line="995" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/the-factory/the_factory.hbs">
+    <entry file="file://$PROJECT_DIR$/public/js/jquery-2.2.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="1" column="818" selection-start-line="1" selection-start-column="818" selection-end-line="1" selection-end-column="818" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/tiles/field_tiles.hbs">
+    <entry file="file://$PROJECT_DIR$/routes/colours.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dev/TileSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/atelier/bespoke_collections_.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="335" column="0" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -1375,26 +1035,294 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/tiles/new_modern.hbs">
+    <entry file="file://$PROJECT_DIR$/views/atelier/portuguese_tiles.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+        <state relative-caret-position="-1830">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/tiles/portuguese_heritage.hbs">
+    <entry file="file://$PROJECT_DIR$/views/layout.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="345">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/atelier/bespoke_projects.hbs">
+    <entry file="file://$PROJECT_DIR$/compass/pages/_portuguese_tiles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="705">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="934" column="10" selection-start-line="934" selection-start-column="10" selection-end-line="934" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tiles/field_tiles.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="268" column="22" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/prod_col_right.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dev/TileCalculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/atelier/inside_atelier.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/javascriptFiles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/colours/colour-palettes.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="3" selection-start-column="8" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/atelier/bespoke_collections.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/nav_top_atelier.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/nav_top_collections.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dev/SubMenuFixed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="892">
+          <caret line="178" column="33" selection-start-line="178" selection-start-column="33" selection-end-line="178" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dev/Parallax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/nav_top_colour_palettes.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/atelier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="8" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dev/Video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/partials/nav_top_bespoke.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contacts-and-support/how_to_buy.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contacts-and-support/contact_us.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/Portals/0/list.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/the-factory/the_factory.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="29" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/pages/_contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/parts/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1025">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dev/Map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+          <folding>
+            <marker date="1468683660000" expanded="true" signature="3772:3796" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contacts-and-support/showrooms_and_retailers.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/pages/_colour_palletes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/atelier/artists_at_home.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/mother-studio/mother_studio.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dev/ColourList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/parts/_generic.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="892" column="9" selection-start-line="892" selection-start-column="9" selection-end-line="892" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compass/pages/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="226" column="36" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="36" />
           <folding />
         </state>
       </provider>
