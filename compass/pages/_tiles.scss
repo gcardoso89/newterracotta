@@ -5,7 +5,7 @@
 			@if ( $height > 0 ){
 				height: ($height)+px;
 			} @else {
-				height: auto;
+				height: 100%;
 			}
 		}
 	}
@@ -76,7 +76,7 @@
 
 	@include prodImgHeight('big', 270);
 	@include prodImgHeight('medium', 240);
-	@include prodImgHeight('huge',345);
+	@include prodImgHeight('huge', 345);
 	@include prodImgHeight('auto', 0);
 
 	figure {

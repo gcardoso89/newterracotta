@@ -13,7 +13,7 @@ var express = require('express' ),
 	projects = require('./routes/projects' ),
 	motherStudio = require('./routes/mother_studio' ),
 	colours = require('./routes/colours' ),
-	gruntTasks = require('./gruntTasks' ),
+	gruntTasks = require('./Gruntfile' ),
 	app = express();
 
 // view engine setup
