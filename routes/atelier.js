@@ -6,10 +6,6 @@ router.get('/', function(req, res, next) {
   res.redirect(301, '/the-atelier/bespoke-collections');
 });
 
-router.get('/portuguese-tiles', function(req, res, next) {
-	res.render('atelier/portuguese_tiles');
-});
-
 router.get('/bespoke-collections', function(req, res, next) {
 	res.render('atelier/bespoke_collections');
 });
