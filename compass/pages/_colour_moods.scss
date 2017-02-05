@@ -29,16 +29,18 @@
 	.big-list {
 		display: none;
 		li {
+			background: #000;
+			overflow: hidden;
 			cursor: pointer;
 			display: block;
 			height: 174px;
 			width: 100%;
 			-webkit-perspective: 1100;
 			-webkit-transform: translate3d(0, 0, 0);
-			@include transition( height 0.5s ease-out );
-			&:hover{
+			@include transition(height 0.5s ease-out);
+			&:hover {
 				height: 300px;
-				.like{
+				.like {
 					display: block;
 				}
 			}
@@ -56,10 +58,11 @@
 			img {
 				position: absolute;
 				left: 50%;
-				margin-left: -960px;
 				z-index: 1;
-				top: 0;
+				top: 50%;
 				display: block;
+				width: 100%;
+				@include transform(translate(-50%, -50%));
 			}
 		}
 
@@ -71,7 +74,7 @@
 			letter-spacing: 4px;
 			line-height: 1;
 			margin: 0;
-			@include box-sizing( border-box );
+			@include box-sizing(border-box);
 			padding-right: 30px;
 			text-align: right;
 		}
@@ -83,7 +86,7 @@
 			margin: 10px 0 0 0;
 			font-weight: 300;
 			letter-spacing: 7px;
-			@include box-sizing( border-box );
+			@include box-sizing(border-box);
 			padding-right: 30px;
 			text-align: right;
 		}
@@ -101,13 +104,13 @@
 		}
 
 		.like {
-			display: none;
 			position: absolute;
 			left: 0;
 			top: 0;
 			z-index: 2;
 			width: 50%;
-			height: 50%;
+			height: 100%;
+			@include transform(translate(0,-150px));
 			.cont {
 				position: absolute;
 				right: 0;
@@ -116,7 +119,7 @@
 				height: 21px;
 				padding: 7px 10px 6px;
 				line-height: 21px;
-				@include box-shadow( -2px 0 5px rgba(0, 0, 0, 0.2) );
+				@include box-shadow(-2px 0 5px rgba(0, 0, 0, 0.2));
 				> * {
 					float: left;
 					margin-left: 10px;
@@ -144,7 +147,7 @@
 					right: 30px;
 					top: 0
 				}
-				&:hover{
+				&:hover {
 					.tooltip {
 						display: block;
 					}
@@ -260,4 +263,46 @@
 	}
 }
 
+@media all and (max-width: 1120px) {
+	.colour-studies {
+		.big-list {
+			figure {
+				img {
+					width: auto;
+					height: 300px;
+				}
 
+			}
+		}
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.colour-studies {
+		.big-list {
+			.tit {
+				font-size:0.8em;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 590px) {
+	.colour-studies {
+		.big-list {
+			.tit {
+				font-size:0.75em;
+			}
+		}
+	}
+}
+
+@media all and (max-width: 480px) {
+	.colour-studies {
+		.big-list {
+			.tit {
+				font-size:0.6em;
+			}
+		}
+	}
+}

@@ -115,14 +115,10 @@ var NewTerracotta = NewTerracotta || {};
 
 		allLoaded() {
 			var _this = this;
-
 			this.resizeHandler();
 
 			this.win.bind( 'resize.ColourStudies', function () {
 				_this.resizeHandler();
-			} );
-			this.win.bind( 'scroll.ColourStudies', function () {
-				//_this.scrollHandler();
 			} );
 
 			this.getColourUrl();
@@ -133,10 +129,6 @@ var NewTerracotta = NewTerracotta || {};
 
 		resizeHandler() {
 			this.winH = this.win.height();
-			var valW = (this.winH * 1920) / 514;
-			//this.items.css( {height: this.winH} );
-			this.extra = this.cont.offset().top;
-			this.img.css( { height: this.winH, width: valW, marginLeft: -(valW / 2) } );
 		}
 
 		getColourUrl() {
