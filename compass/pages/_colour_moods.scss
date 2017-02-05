@@ -1,0 +1,263 @@
+
+.colour-studies {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+
+	ul, li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.bt-down {
+		display: block;
+		color: #fff;
+		position: absolute;
+		left: 50%;
+		bottom: 50px;
+		z-index: 2;
+		width: 70px;
+		height: 70px;
+		margin-left: -35px;
+		line-height: 70px;
+		text-align: center;
+		font-size: 4.0em;
+		cursor: pointer;
+	}
+
+	.big-list {
+		display: none;
+		li {
+			cursor: pointer;
+			display: block;
+			height: 174px;
+			width: 100%;
+			-webkit-perspective: 1100;
+			-webkit-transform: translate3d(0, 0, 0);
+			@include transition( height 0.5s ease-out );
+			&:hover{
+				height: 300px;
+				.like{
+					display: block;
+				}
+			}
+		}
+		.fixed {
+			position: fixed !important;
+			top: 0 !important
+		}
+		figure {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			img {
+				position: absolute;
+				left: 50%;
+				margin-left: -960px;
+				z-index: 1;
+				top: 0;
+				display: block;
+			}
+		}
+
+		h2 {
+			font-size: 2.8125em;
+			color: #fff;
+			text-transform: lowercase;
+			font-weight: normal;
+			letter-spacing: 4px;
+			line-height: 1;
+			margin: 0;
+			@include box-sizing( border-box );
+			padding-right: 30px;
+			text-align: right;
+		}
+
+		h3 {
+			font-size: 1.3125em;
+			color: #fff;
+			text-transform: uppercase;
+			margin: 10px 0 0 0;
+			font-weight: 300;
+			letter-spacing: 7px;
+			@include box-sizing( border-box );
+			padding-right: 30px;
+			text-align: right;
+		}
+
+		.dark {
+			h2, h3 {
+				color: #241f1d
+			}
+			h3 {
+				font-weight: 400
+			}
+			.bt-down {
+				color: #241f1d
+			}
+		}
+
+		.like {
+			display: none;
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: 2;
+			width: 50%;
+			height: 50%;
+			.cont {
+				position: absolute;
+				right: 0;
+				top: 50%;
+				background: #fff;
+				height: 21px;
+				padding: 7px 10px 6px;
+				line-height: 21px;
+				@include box-shadow( -2px 0 5px rgba(0, 0, 0, 0.2) );
+				> * {
+					float: left;
+					margin-left: 10px;
+					&:first-child {
+						margin-left: 0px;
+					}
+				}
+			}
+			.fa {
+				display: inline-block;
+				line-height: 20px;
+				color: #999999;
+				cursor: pointer;
+				width: 17px;
+			}
+			.ic-month {
+				position: absolute;
+				left: 0px;
+				top: -5px;
+				display: none;
+				cursor: pointer;
+				margin: 0;
+				.tooltip {
+					position: absolute;
+					right: 30px;
+					top: 0
+				}
+				&:hover{
+					.tooltip {
+						display: block;
+					}
+				}
+			}
+		}
+
+		.tit {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			width: 50%;
+			z-index: 2;
+			margin-top: -42px;
+		}
+	}
+
+}
+
+.colour-sel {
+	background: #241f1d;
+	width: 1024px;
+	height: 100px;
+	padding-top: 10px;
+	position: fixed;
+	z-index: 2;
+	top: -110px;
+	left: 50%;
+	margin-left: -512px;
+	@include transition(top 1s ease-out);
+
+	&:hover {
+		top: 0px;
+	}
+
+	ul, li {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	ul {
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: 1;
+		&:after {
+			content: ".";
+			clear: both;
+			height: 0;
+			display: block;
+			visibility: hidden;
+		}
+	}
+
+	li {
+		width: 92px;
+		height: 92px;
+		float: left;
+		margin-right: 6px;
+	}
+
+	.slid-wrap {
+		width: 974px;
+		height: 100px;
+		overflow: hidden;
+		float: left;
+		position: relative;
+		z-index: 1;
+	}
+
+	figure {
+		width: 92px;
+		height: 63px;
+		overflow: hidden;
+		display: block;
+		margin-bottom: 3px;
+		img {
+			display: block;
+		}
+
+	}
+
+	.bt-next, .bt-prev {
+		width: 25px;
+		height: 63px;
+		line-height: 63px;
+		color: #fff;
+		text-align: center;
+		float: left;
+		font-size: 2.0em
+	}
+
+	.name {
+		font-style: italic;
+		font-size: 0.75em;
+		color: #fff;
+		font-weight: 100;
+		text-transform: lowercase;
+		line-height: 1.1;
+	}
+
+	.menu-open {
+		cursor: pointer;
+		width: 91px;
+		height: 38px;
+		display: block;
+		position: absolute;
+		left: 50%;
+		margin-left: -45px;
+		bottom: -38px;
+		background: url(../images/ic_menu_colour.png) no-repeat left top;
+	}
+}
+
+

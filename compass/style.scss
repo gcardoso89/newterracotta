@@ -9,17 +9,18 @@ $browser-context: 16;
 	@return #{$pixels/$context}em;
 }
 
-@import "parts/_generic.scss";
-@import "parts/_grid.scss";
-@import "parts/_header.scss";
-@import "parts/_footer.scss";
+@import "parts/generic";
+@import "parts/grid";
+@import "parts/header";
+@import "parts/footer";
 
-@import "pages/_home.scss";
-@import "pages/_tiles.scss";
-@import "pages/_portuguese_tiles.scss";
-@import "pages/_projects.scss";
-@import "pages/_contacts.scss";
-@import "pages/_colour_palletes.scss";
+@import "pages/home";
+@import "pages/tiles";
+@import "pages/portuguese_tiles";
+@import "pages/projects";
+@import "pages/contacts";
+@import "pages/colour_palletes";
+@import "pages/colour_moods";
 
 
 
